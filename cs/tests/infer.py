@@ -27,4 +27,4 @@ for _, row in df.iterrows():
     pred_intents.append(result['intent']['name'])
 
 print(f1_score(expected_intents, pred_intents, average=None))
-print("\n{0:4d} runs elapsed: {1}".format(num_iter, dt.datetime.now() - start))
+print("\n{0:4d} runs elapsed: {1}".format(len(df), dt.datetime.now() - start))
