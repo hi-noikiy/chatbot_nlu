@@ -1,4 +1,5 @@
-jieba
+numpy
+pandas
 rasa
-mitie
-scikit-learn
+jieba
+git+https://github.com/mit-nlp/MITIE.git
