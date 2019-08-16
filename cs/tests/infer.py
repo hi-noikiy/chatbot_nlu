@@ -16,10 +16,6 @@ model = get_validated_path(model, "model", DEFAULT_MODELS_PATH)
 model_path = get_model(model)
 _, nlu_model = get_model_subdirectories(model_path)
 interpreter = Interpreter.load(nlu_model)
-
-message = "哈哈"
-num_iter = 1000
-
 start = dt.datetime.now()
 
 pred_intents = []
