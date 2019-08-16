@@ -1,0 +1,5 @@
+numpy
+pandas
+rasa
+jieba
+git+https://github.com/mit-nlp/MITIE.git

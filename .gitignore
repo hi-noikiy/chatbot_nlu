@@ -2,3 +2,4 @@ models
 .ipynb_checkpoints
 jieba_userdict
 external_resources/total_word_feature_extractor_zh.dat
+.idea
