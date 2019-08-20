@@ -1,0 +1,35 @@
+entities:
+  - accessory
+  - action
+  - company
+  - component
+  - compont
+  - error_message
+  - identity
+  - introduction
+  - malfunction
+  - product
+  - protocol
+  - status
+
+
+intents:
+  - greeting
+  - chatty
+  - question
+
+slots:
+  product:
+    type: categorical
+    values:
+      - 小闪
+      - T1 mini
+      - T1
+      - T2
+      - V2 pro
+      - P1
+      - M1
+      - K1
+      - D2
+      - D1S
+      - V1s
