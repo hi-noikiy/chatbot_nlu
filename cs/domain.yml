@@ -18,6 +18,7 @@ intents:
   - chatty
   - question
 
+
 slots:
   product:
     type: categorical
@@ -33,3 +34,12 @@ slots:
       - D2
       - D1S
       - V1s
+
+
+templates:
+  utter_greet:
+    - text: "你好，我是小橙，有什么可以帮到你吗？"
+    - text: "您好，乐意效劳！"
+  utter_goodbye:
+    - text: "再见"
+    - text: "88"
