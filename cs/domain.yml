@@ -43,3 +43,8 @@ templates:
   utter_goodbye:
     - text: "再见"
     - text: "88"
+
+
+actions:
+  - utter_greet
+  - utter_goodbye
