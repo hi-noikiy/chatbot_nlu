@@ -2,18 +2,15 @@ import json
 from pathlib import Path
 import pandas as pd
 
-parent_folder = Path(__file__).parents[1]
+parent_folder = Path(__file__).absolute().parents[1]
 
 intent_df = pd.read_csv(parent_folder / 'data/intent.csv')
 entities_df = pd.read_csv(parent_folder / 'data/entities.csv')
-entities_df = entities_df[entities_df.word.apply(lambda x: len(x)) >= 2]
-entities_df = entities_df[entities_df.word.apply(lambda x: len(x)) <= 4]
-entities_df.to_csv(parent_folder / 'data/entities.csv', index=False)
 
 dict_file = str((parent_folder / 'jieba_userdict/jieba_userdict.txt').absolute())
 new_words = sorted(entities_df.word.tolist(), key=lambda x: -len(x))
 with open(dict_file, 'w', encoding='utf8') as f_handle:
-    f_handle.writelines([w + ' 10000000\n' for w in new_words])
+    f_handle.writelines([w + ' 10000000000\n' for w in new_words])
 print("{0} words has been written to {1}".format(len(new_words), dict_file))
 
 entities_df['len'] = entities_df['word'].apply(lambda x: len(x))
@@ -51,7 +48,16 @@ nlu_data = dict(rasa_nlu_data={})
 nlu_data['rasa_nlu_data']['common_examples'] = common_data
 nlu_data['rasa_nlu_data']['regex_features'] = []
 nlu_data['rasa_nlu_data']['lookup_tables'] = []
-nlu_data['rasa_nlu_data']['entity_synonyms'] = []
+
+groups = entities_df.groupby('sym')
+
+synonyms = []
+for k, g in groups:
+    if len(g) > 1:
+        s = {k: g['word'].tolist()}
+        synonyms.append(s)
+
+nlu_data['rasa_nlu_data']['entity_synonyms'] = synonyms
 
 nlu_data_file = str((parent_folder / 'data/nlu_data.json').absolute())
 json.dump(nlu_data, open(parent_folder / 'data/nlu_data.json', 'w'))

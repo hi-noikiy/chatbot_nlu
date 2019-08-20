@@ -1,713 +1,695 @@
-,questions,intention
-0,你好,greeting
-1,你好么,greeting
-2,你好吗,greeting
-3,你好呀,greeting
-4,近来一切可好,greeting
-5,近来如何,greeting
-6,最近过得怎么样,greeting
-7,假期还好么,greeting
-8,你好，很高兴认识你,greeting
-9,好久不见，最近怎么样,greeting
-10,好久不见，最近过得怎么样,greeting
-11,你好啊,greeting
-12,早上好,greeting
-13,晚上好,greeting
-14,中午好,greeting
-15,你好呀,greeting
-16,在干嘛呢,greeting
-17,今天怎么不开心,greeting
-18,在干嘛呢,greeting
-19,好久不见，你在哪里,greeting
-20,兄弟，好久不见，好不容易才找到你,greeting
-21,当我想起你，我感觉离你很近，离这个世界很远,greeting
-22,打扰您了,greeting
-23,吃饭了么,greeting
-24,这段时间忙么,greeting
-25,这段时间在忙啥,greeting
-26,近况如何,greeting
-27,很高兴认识你,greeting
-28,很高兴见到你,greeting
-29,你过得怎么样,greeting
-30,你好，你是谁,greeting
-31,你是谁,greeting
-32,你在吗,greeting
-33,今天在忙啥,greeting
-34,最近生活和工作都还好吗,greeting
-35,Hello,greeting
-36,Hi ,greeting
-37,哈喽,greeting
-38,嗨，你好,greeting
-39,嗨，很高兴遇见你,greeting
-40,嗨，今天第一次问你问题,greeting
-41,今天在忙啥呢,greeting
-0,别张口闭口的就带着你爹你妈，你那么孝顺怎么不在家呆着？,chatty
-1,前面的大姐，对不起啊，您体型有点庞大啊，挡住我手机信号了。,chatty
-2,拿你当人的时候，你尽量走人道好吗。,chatty
-3,6666666,chatty
-4,666,chatty
-5,不要说别人脑子有病，脑子有病的前提是必须有个脑子。,chatty
-6,你特么是不是有病,chatty
-7,每次我看你吃猪肉都万分感慨。本是同根生。相煎何太急。,chatty
-8,狗叫嚣有什么用，真咬到我，才算你本事、嫉妒归嫉妒，做人不要做狗，在背后诋毁有意思？,chatty
-9,不要把自己当回事。请问你是谁。,chatty
-10,特么的,chatty
-11,你特么到底能做什么,chatty
-12,请问你有什么好牛的。说出来给我乐呵乐呵。,chatty
-13,陪我玩一会,chatty
-14,你自不量力的在我面前装，我也只好笑着看着你继续装。,chatty
-15,给你面子你不要。你是有多不要脸。,chatty
-16,你这货，太让我费心了.,chatty
-17,有娘养没娘教育的,chatty
-18,我就想不通那深沟桥的臭水沟怎么跑到你脑子里去了。,chatty
-19,要不要脸,chatty
-20,你要不要脸,chatty
-21,您就说。您要脸。您真要脸，我就没见过比你要脸的。,chatty
-22,傻逼,chatty
-23,你特么怎么这么傻逼,chatty
-24,傻币就像南方的农作物，一年三熟，从来都不带歇气儿的。,chatty
-25,您的容貌的存在就是对市容城管的一种侮辱。,chatty
-26,你他妹的吃了多少勇气果子敢这么跟我说话。,chatty
-27,你他妈的,chatty
-28,婊子,chatty
-29,陪我说说话,chatty
-30,人品问题永远是自己本质的完犊子。,chatty
-31,你都不如一条狗，我给狗扔块骨头它都知道冲我摇摇尾巴。,chatty
-32,您别总日啊日的。你家老母狗都快怀孕了。,chatty
-33,我有点无聊,chatty
-34,我有点寂寞,chatty
-35,陪我说会话,chatty
-36,我有点寂寞了,chatty
-37,我现在有点无聊,chatty
-38,我好烦,chatty
-39,你到底会做什么,chatty
-40,瞧你那副低俗不堪的衰样,chatty
-41,你干嘛用屁股挡住脸啊,chatty
-42,你这个笨蛋,chatty
-43,你这个白痴,chatty
-44,这么不要脸,chatty
-45,有病,chatty
-46,你特么有病,chatty
-47,劳资不操你妈你就不知道我是你爸,chatty
-48,草泥马,chatty
-49,不要再装牛B了,chatty
-50,装逼,chatty
-51,你那脑袋里装的全是屎,chatty
-52,我无语了,chatty
-53,我非常无语,chatty
-54,要你有什么用,chatty
-55,你真白痴,chatty
-56,你特么真白痴,chatty
-57,你连这不会回答,chatty
-58,亲爱的,chatty
-59,傻逼,chatty
-60,沙雕,chatty
-61,傻吊,chatty
-62,傻屌,chatty
-63,垃圾机器人,chatty
-64,机器人好笨啊,chatty
-65,智障,chatty
-66,人工智障,chatty
-67,去他妈的,chatty
-68,去他娘的,chatty
-0,我怎么报修,question
-1,怎么查看维修进度,question
-2,我报修了，怎么没消息的,question
-3,旁边就是你们的维修站，我能直接送过去吗,question
-4,我在深圳，干嘛要我寄到上海修,question
-5,我的机器寄过去了，怎么还没修好，都没有人联系我,question
-6,你们修好的机器发什么快递寄回？,question
-7,寄过去的运费谁来承担,question
-8,碎屏、压纸轴损坏、壳料损坏等,question
-9,屏幕触摸失灵、触摸无反应,question
-10,打印机打印小票部分模糊,question
-11,打印机卡纸、切刀卡住、纸仓打不开或卡住,question
-12,连接一体机打印机,question
-13,卡在开机画面,question
-14,摄像头扫码扫不出或者扫的慢,question
-15,设备提示“未检测到相机”,question
-16,虚拟按键失灵或无效,question
-17,物理按键失灵或无效,question
-18,提示“电池过热”,question
-19,电量显示异常,question
-20,NFC设备无法读取,question
-21,wifi无法连接,question
-22,设备称重不准、称重数据波动,question
-23,小闪扫码无数据输入,question
-24,钱箱无法弹出,question
-25,桌面无APP图标,question
-26,维修配件的价格,question
-27,设备可以root吗,question
-28,我店/家旁边就是你们的维修站，我可以直接送过去吗,question
-29,商米线下体验店地址,question
-30,屏幕不亮,question
-31,商米售后客服热线,question
-32,商米微信公众号,question
-33,商米官网,question
-34,感谢语，谢谢。,question
-35,怎么查看保修期,question
-36,小闪的支持扫商品条码吗？,question
-37,扫码盒连接收银机不能扫码，怎么判断是扫码盒问题还是收银机问题？,question
-38,商米T1 mini开启智能商用设备,question
-39,商米T1 mini如何下载/使用应用,question
-40,商米T1 mini系统预置软件列表,question
-41,商米T1 mini死机怎么办,question
-42,商米T1 mini打印机不工作,question
-43,商米T1 mini打印内容空白,question
-44,商米T1 mini打印内容模糊,question
-45,商米T1外观介绍,question
-46,商米T1安装说明,question
-47,商米T1开机设置说明,question
-48,商米T1如何下载／使用应用,question
-49,商米T1如何截屏,question
-50,商米T1连接网线后，如何设置固定IP联网,question
-51,商米T1系统更新会自动下载吗？会不会影响到日常工作,question
-52,商米T1如何将机器升级到最新的系统版本,question
-53,商米T1如何查看当前的系统版本,question
-54,商米T1如何恢复出厂设置（主屏）,question
-55,商米T1如何恢复出厂设置（14寸副屏）,question
-56,商米T1可以提供系统刷机包吗,question
-57,商米T1设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
-58,商米T1如何设置锁屏密码,question
-59,商米T1设备设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
-60,商米T1系统安全模式是什么,question
-61,商米T1如何进入安全模式？,question
-62,商米T1如何退出安全模式？,question
-63,商米T1产品的存储空间为什么跟规格标示的不一样,question
-64,商米T1如何扩展收银机的存储空间,question
-65,商米T1可用存储空间少，如何清理缓存和删除不需要的文件,question
-66,商米T1如何调整显示字体的大小,question
-67,商米T1为什么文字变成加粗黑体显示,question
-68,商米T1如何使用副屏播放视频或者演示图片广告,question
-69,商米T1调节音量大小,question
-70,商米T1在应用市场中找不到要下载的APP，如何安装第三方APP,question
-71,"商米T1安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理",question
-72,商米T1如何停用不必要的应用,question
-73,商米T1为什么有部分应用无法卸载,question
-74,商米T1支持哪些外接哪些硬件,question
-75,商米T1是否支持外接RS232接口的设备，如打印机、电子秤,question
-76,商米T1如何外接钱箱,question
-77,商米T1如何外接扫码枪,question
-78,商米T1如何外接电子秤,question
-79,商米T1如何加装商米刷卡器（MSR/RFID读卡器）？是否支持刷金融银行卡？,question
-80,商米T1如何外接会员卡读写器,question
-81,商米T1是否支持通过HDMI连接电视显示屏,question
-82,商米T1是否支持外接摄像头使用,question
-83,商米T1能否连接USB密码键盘,question
-84,商米T1能否连接U盘传输文件,question
-85,商米T1是否支持外接USB接口的3G/4G无线上网卡,question
-86,商米T1是否支持4G全网通SIM卡模块,question
-87,商米T1是否有内置MIC,question
-88,商米T1使用USB线连接电脑传输文件，如何操作,question
-89,商米T1收银机使用USB数据线连接电脑传输文件，无法选择USB连接类型，如何处理,question
-90,商米T1T1使用哪种规格的热敏纸,question
-91,商米T1T1可否使用58规格的热敏纸,question
-92,商米T1T1如何拆下58规格打印挡板，切换使用80规格打印纸？,question
-93,商米T1其他设备是否可以把T1当蓝牙打印机来使用,question
-94,商米T1如何在APP中通过蓝牙连接自带的打印机？(APP通过蓝牙调用内置打印机),question
-95,商米T1内置打印机是否支持打印热敏标签/不干胶标签,question
-96,商米T1T1是否支持黑标打印,question
-97,商米T1硬件管家可以检查哪些硬件功能是否正常,question
-98,商米T1开不了机,question
-99,商米T1死机怎么办,question
-100,商米T1初次开机，无法激活,question
-101,商米T1系统更新下载升级包失败,question
-102,商米T1连接WiFi提示网络连接失败；WiFi连接后不能上网,question
-103,商米T1插入网线连接后，无法连接网络,question
-104,商米T1为什么T1网络测速比电脑网络测试要慢,question
-105,商米T1外接扫码枪不能使用、不能扫码,question
-106,商米T1用扫码枪或扫码盒扫描条码/二维码识别数值不完整，缺少部分数值,question
-107,商米T1收银机连接USB扫码枪，不显示屏幕键盘,question
-108,商米T1无法识别SD卡，不能读SD卡,question
-109,商米T1APP使用时没有声音提示,question
-110,商米T1外接音箱调高音量，重启设备后，为什么音量会变小？,question
-111,商米T1外接音箱输出的音量比原来的声音小,question
-112,商米T1双屏14寸：从应用市场下载双屏应用，一直显示安装中，怎么处理？,question
-113,商米T1屏幕触控异常,question
-114,商米T1双屏：副屏黑屏，不显示，主屏正常显示,question
-115,商米T1双屏：桌面不显示 “副屏设置”图标,question
-116,商米T1双屏：识别不到副屏，无法获取副屏信息,question
-117,商米T1双屏：发送文件到副屏失败，主屏发送信息给副屏不显示，副屏显示卡住，不刷新,question
-118,商米T1双屏：系统更新检测不到新版本，显示“断开连接”,question
-119,商米T1打印机门盖打不开，如何处理,question
-120,商米T1打印机门盖关不上，如何处理,question
-121,商米T1打印走纸不正常，如何处理,question
-122,商米T1打印机切纸只能切一半，如何处理,question
-123,商米T1为什么T1打印机打印出来的内容全是黑块,question
-124,商米T1打印空白，出现提示“未检测到黑标，请检查,question
-125,商米T1打印机小票打印的内容没有居中，只有一半,question
-126,商米T1打印机不工作，报“打印机未准备好”，如何处理,question
-127,商米T1打印机不工作，报“打印机切刀已经修复”，如何处理,question
-128,商米T1打印机不工作，报“打印纸未准备好”，如何处理,question
-129,商米T1显示2个相同的图片如何处理,question
-130,商米T2有那几款配置,question
-131,商米T2外观介绍,question
-132,商米T2开机设置说明,question
-133,商米T2如何下载、使用应用,question
-134,商米T2如何截屏,question
-135,商米T2连接网线后，如何设置固定IP联网,question
-136,商米T2系统更新会自动下载吗？会不会影响到日常工作,question
-137,商米T2如何将机器升级到最新的系统版本,question
-138,商米T2如何查看当前的系统版本,question
-139,商米T2如何恢复出厂设置,question
-140,商米T2是否可以提供系统刷机包吗,question
-141,商米T2设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
-142,商米T2如何设置锁屏密码,question
-143,商米T2设备设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
-144,商米T2系统安全模式是什么,question
-145,商米T2如何进入安全模式？,question
-146,商米T2如何退出安全模式？,question
-147,商米T2如何退出App的霸屏模式？App全屏运行时找不到返回键无法退出应用”？,question
-148,商米T2收银机内置什么输入法，安装第三方输入法怎么切换使用？,question
-149,商米T2产品的存储空间为什么跟规格标示的不一样,question
-150,商米T2如何扩展收银机的存储空间,question
-151,商米T2可用存储空间少，如何清理缓存和删除不需要的文件,question
-152,商米T2如何调整显示字体的大小,question
-153,商米T2如何调整文字显示大小,question
-154,商米T2为什么文字变成加粗黑体显示,question
-155,商米T2如何使用副屏播放视频或者演示图片广告,question
-156,商米T2调节音量大小,question
-157,商米T2在应用市场中找不到要下载的APP，如何安装第三方APP,question
-158,"商米T2安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理",question
-159,商米T2如何停用不必要的应用,question
-160,商米T2为什么有部分应用无法卸载,question
-161,商米T2支持外接哪些硬件？,question
-162,商米T2是否支持外接RS232接口的设备，如打印机、电子秤,question
-163,商米T2如何外接钱箱,question
-164,商米T2如何外接扫码枪,question
-165,商米T2如何外接电子秤,question
-166,商米T2如何外接会员卡读写器？,question
-167,商米T2是否支持通过HDMI连接电视显示屏,question
-168,商米T2是否支持外接摄像头使用？,question
-169,商米T2能否连接USB密码键盘？,question
-170,商米T2能否连接U盘传输文件？,question
-171,商米T2是否支持外接USB接口的3G/4G无线上网卡？,question
-172,商米T2是否支持4G 全网通SIM卡模块？,question
-173,商米T2是否有内置MIC？,question
-174,商米T2T2使用USB数据线连接电脑传输文件，如何操作？,question
-175,商米T2收银机使用USB数据线连接电脑传输文件，无法选择USB连接类型，如何处理？,question
-176,商米T2使用哪种规格的热敏纸？,question
-177,商米T2可否使用58规格的热敏纸？,question
-178,商米T2如何拆下58规格打印挡板，切换使用80规格打印纸？,question
-179,商米T2其他设备是否可以把T2当蓝牙打印机来使用？,question
-180,商米T2如何在APP中通过蓝牙连接自带的打印机？(APP通过蓝牙调用内置打印机),question
-181,商米T2内置打印机是否支持打印热敏标签/不干胶标签？,question
-182,商米T2是否支持黑标打印？,question
-183,商米T2硬件管家可以检查哪些硬件功能是否正常？,question
-184,商米T2开不了机，如何处理？,question
-185,商米T2死机怎么办？,question
-186,商米T2初次开机，无法激活，如何处理？,question
-187,商米T2系统更新下载升级包失败，如何处理？,question
-188,商米T2连接WiFi提示网络连接失败；WiFi连接后不能上网,question
-189,商米T2插入网线连接后，无法连接网络,question
-190,商米T2为什么T2网络测速比电脑网络测试要慢,question
-191,商米T2外接扫码枪不能使用、不能扫码,question
-192,商米T2用扫码枪或扫码盒扫描条码/二维码识别数值不完整，缺少部分数值,question
-193,商米T2收银机连接USB扫码枪，不显示屏幕键盘,question
-194,商米T2无法识别SD卡，不能读SD卡,question
-195,商米T2APP使用时没有声音提示,question
-196,商米T2外接音箱调高音量，重启设备后，为什么音量会变小？,question
-197,商米T2外接音箱输出的音量比原来的声音小,question
-198,商米T2屏幕触控异常,question
-199,商米T2双屏：副屏黑屏，不显示，主屏正常显示,question
-200,商米T2打印内容空白，怎么处理？,question
-201,商米T2打印变淡、打印模糊、打印字体不清晰 ,question
-202,商米T2打印机门盖打不开，如何处理？,question
-203,商米T2打印机门盖关不上，如何处理？,question
-204,商米T2打印机切纸只能切一半，如何处理？,question
-205,商米T2为什么打印机打印出来的内容全是黑块？,question
-206,商米T2打印空白，出现提示“未检测到黑标，请检查”,question
-207,商米T2打印机小票打印的内容没有居中，只有一半？,question
-208,商米T2打印机不工作，报“打印机未准备好”，如何处理？,question
-209,商米T2打印机不工作，报“打印机切刀已经修复”，如何处理？,question
-210,商米T2打印机不工作，报“打印纸未准备好”，如何处理？,question
-211,商米V2 Pro支持什么种类的SIM卡,question
-212,商米V2 Pro充电器,question
-213,商米V2 Pro的工作温度是多少？,question
-214,商米V2 Pro插入流量卡、物联卡无法联网怎么处理？,question
-215,商米V2 Pro如何截屏？,question
-216,商米V2 Pro4G版如何使用eSIM卡连接移动网络？,question
-217,商米V2 Pro是否支持WiFi热点分享？,question
-218,商米V2 Pro如何设置快速打开应用的快捷键？,question
-219,商米V2 Pro如何查看流量使用情况？,question
-220,商米V2 Pro测试扫码头是否能够正常工作（V2 PRO 4G高配版）,question
-221,商米V2 Pro如何修改一维扫码头的扫描识别设置？,question
-222,商米V2 Pro如何调整文字显示大小？,question
-223,商米V2 Pro为什么文字变成加粗黑体显示？,question
-224,商米V2 Pro如何调整屏幕显示大小？,question
-225,商米V2 Pro如何设置手持收银设备的音量？,question
-226,商米V2 Pro在应用市场中找不到要下载的APP，如何安装第三方APP？,question
-227,"商米V2 Pro安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理？",question
-228,商米V2 Pro手持收银设备内置什么输入法，安装第三方输入法怎么切换使用？,question
-229,"商米V2 Pro从应用市场下载应用提示""应用下载失败，请检查网络后重新下载”，如何处理？",question
-230,商米V2 Pro如何停用不必要的应用？,question
-231,商米V2 Pro为什么有部分应用无法卸载？,question
-232,商米V2 Pro系统更新会自动下载吗？会不会影响到日常工作？,question
-233,商米V2 Pro如何禁止系统及应用在4G状态下自动更新,question
-234,商米V2 Pro如何恢复出厂设置,question
-235,商米V2 Pro时间不对，时间设置怎么是灰色的？,question
-236,商米V2 Pro是否提供系统刷机包,question
-237,商米V2 Pro商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
-238,商米V2 Pro内置GPS芯片吗？是否支持GPS定位？,question
-239,商米V2 Pro设置密码锁屏，但是忘记了密码，怎么处理,question
-240,商米V2 Pro安全模式是什么？不小心进入了安全模式，怎么退出？屏幕上的应用图标是灰色的，无法打开，怎么解决？,question
-241,商米V2 Pro可用存储空间少，如何清理缓存和删除不需要的文件？,question
-242,商米V2 Pro是否支持OTG，是否支持外接USB设备？,question
-243,商米V2 Pro是否支持会员卡、积分卡？支持哪类非接卡？,question
-244,商米V2 Pro使用USB线连接PC后，怎么传输文件？,question
-245,商米V2 Pro使用哪种规格的热敏纸？,question
-246,商米V2 Pro其他设备是否可以把V2 PRO当蓝牙打印机来使用？,question
-247,商米V2 Pro手持机是否支持打印热敏标签/不干胶标签？,question
-248,商米V2 Pro如何使用硬件管家检测硬件功能是否正常？,question
-249,商米V2 Pro开不了机（如设备电量过低），如何处理？,question
-250,商米V2 Pro无法充电，如何处理？,question
-251,商米V2 Pro充电电量到90%以上到充满需要花很长时间，充电速度慢；为什么95%以上电量不能充电？,question
-252,商米V2 Pro耗电快怎么处理？,question
-253,商米V2 Pro使用卡顿怎么处理？,question
-254,商米V2 Pro死机怎么办？,question
-255,商米V2 Pro扫码模糊、反应速度慢，怎么解决？,question
-256,商米V2 Pro使用的APP没有声音提示,question
-257,商米V2 Pro连接WiFi提示网络连接失败；WiFi连接后不能上网,question
-258,商米V2 Pro我使用的APP不能联网，显示网络连接失败,question
-259,商米V2 Pro系统提示“无法连接到相机，请确保已关闭会使用相机或闪光灯的应用程序。”,question
-260,商米V2 Pro开机一直出现“com.android.phone”停止运行，按确认会重启，进不了系统,question
-261,商米V2 Pro开机黑屏，出现提示：未知错误，请重启,question
-262,商米V2 Pro屏幕一直亮着，自动亮屏，耗电快,question
-263,商米V2 Pro使用饿了么app，打印首单提示“打印机连接异常”,question
-264,商米V2 Pro我使用的APP不能打印，怎么办？,question
-265,商米V2 Pro打印内容空白，怎么处理？,question
-266,商米V2 Pro打印不走纸，怎么处理？,question
-267,商米V2 Pro打印变淡、打印模糊、打印字体不清晰 ,question
-268,商米V2 Pro打印机有打印纸的情况下出现“打印纸未准备好”的警报是什么原因导致的？,question
-269,商米V2 Pro“打印头过热，请等待冷却” 怎么解除设备的安全报警？,question
-270,商米V2 ProV2 Pro打印模糊,question
-271,商米V2 Pro如何在APP中通过蓝牙连接自带的打印机？,question
-272,商米V2 Pro如何调整打印清晰度？,question
-273,商米V2 Pro如何调整打印字体大小？,question
-274,商米V2 Pro如何调整打印字体的样式？,question
-275,商米P1外观介绍,question
-276,商米P1充电及电池说明,question
-277,商米P1电池说明/注意事项 ,question
-278,商米P1打印纸安装说明,question
-279,商米P1安装SIM卡说明,question
-280,商米P1开机设置说明,question
-281,商米P1如何下载／使用应用,question
-282,商米P1电池维护,question
-283,商米P1打印头维护,question
-284,商米P1设备支持哪些运营商的SIM卡,question
-285,商米P1如何连接移动网络,question
-286,商米P1如何查看流量使用情况,question
-287,商米P1如何截屏,question
-288,商米P1设置快速打开应用的快捷键（快速扫码）,question
-289,商米P1屏幕顶部出现的禁止图标经是什么,question
-290,商米P1屏幕顶部出现的星号图标是什么,question
-291,"商米P1商米设备上的""用户反馈""有什么用",question
-292,"商米P1商米设备上的""耗材商城""有什么用",question
-293,商米P1应用市场中找不到要下载的APP，如何安装第三方APP,question
-294,商米P1下载第三方APP更新后，点进去 提示“出于安全考虑，设备已设置为禁止安装来源不明的应用“，但是在设置->安全的未知来源选项是灰色的，不能打开，怎么处理？,question
-295,商米P1系统更新会自动下载吗？会不会影响到日常工作,question
-296,商米P1关闭系统及应用在3G/4G状态下自动更新,question
-297,商米P1在P1使用高峰期的时候，为什么系统一直提示需要重启？,question
-298,商米P1如何恢复出厂设置,question
-299,商米P1设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
-300,商米P1系统安全模式是什么,question
-301,商米P1如何进入安全模式？,question
-302,商米P1如何退出安全模式？,question
-303,商米P1是否支持外接其他设备,question
-304,商米P1使用哪种规格的热敏纸规格,question
-305,商米P1其他设备是否可以把P1当蓝牙打印机来使用,question
-306,商米P1如何在APP中通过蓝牙连接商米P1的打印机,question
-307,商米P1调整打印清晰度,question
-308,商米P1设备是否支持打印热敏标签/不干胶标签,question
-309,商米P1硬件管家可以检查哪些项目,question
-310,商米P1开不了机（如设备电量过低），如何处理,question
-311,商米P1电池充电不通电,question
-312,商米P1充电就发烫，然后自动关机，怎么处理,question
-313,商米P1死机怎么办,question
-314,商米P1APP使用时没有声音提示,question
-315,商米P1无法识别SIM卡，如何处理,question
-316,商米P1插入流量卡无法联网怎么处理,question
-317,商米P1连接WLAN时提示网络连接失败；WiFi上网慢，上网不稳定，上网断,question
-318,商米P1APP使用时显示网络连接失败,question
-319,商米P1业务APP不能打印，怎么办,question
-320,商米P1打印内容空白，怎么处理,question
-321,商米P1打印不走纸或打印很慢，怎么处理,question
-322,商米P1打印变淡、打印模糊、打印字体整体不清晰,question
-323,商米P1开机发出滴滴滴报警音，显示“POS机受到攻击，请联系经销商”，怎么解除,question
-324,商米P1使用收银类APP的时候选扫码支付出现卡死状态，如何处理,question
-325,商米P1NFC刷卡无反应,question
-326,商米P14G切换渠道后新的自定义桌面不生效的问题,question
-327,商米P1屏幕右上角的LED灯在哪些场景会起作用,question
-328,商米P1LED指示灯状态说明,question
-329,商米P1支持哪类IC卡片？支持哪类非接卡/非接触卡？,question
-330,商米M1外观介绍,question
-331,商米M1充电及电池说明,question
-332,商米M1电池说明/注意事项,question
-333,商米M1 安装SIM卡说明,question
-334,商米M1开机设置说明,question
-335,商米M1如何下载／使用应用,question
-336,商米M1充电底座维护,question
-337,商米M1电池维护,question
-338,商米M1设备支持哪些运营商的SIM卡,question
-339,商米M1如何连接移动网络,question
-340,商米M1如何查看流量使用情况,question
-341,商米M1是否支持拨打电话和发送接收短信,question
-342,商米M1商米设备是否和其他安卓手机一样，能支持WiFi热点分享吗？,question
-343,商米M1如何使用设备截屏,question
-344,商米M1如何设置快速打开应用的快捷键,question
-345,商米M1屏幕顶部出现的禁止图标经是什么,question
-346,商米M1屏幕顶部出现的星号图标是什么,question
-347,"商米M1设备上的""用户反馈""有什么作用",question
-348,"商米M1设备上的""耗材商城""有什么用",question
-349,商米M1应用市场中找不到要下载的APP，如何安装第三方APP,question
-350,"商米M1安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理",question
-351,商米M1如何查看机具是哪个渠道商出货的机具？,question
-352,商米M1如何停用不必要的应用,question
-353,商米M1为什么有部分应用无法卸载,question
-354,商米M1机器内置什么输入法，安装了第三方输入法怎么切换,question
-355,商米M1系统更新会自动下载吗？会不会影响到日常工作,question
-356,商米M1怎么擦你能禁止系统及应用在3G状态下自动更新,question
-357,商米M1如何恢复出厂设置,question
-358,商米M1可以提供系统刷机包吗,question
-359,商米M1可以提供系统刷机包吗？商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
-360,商米M1设备设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
-361,商米M1系统安全模式是什么,question
-362,商米M1如何进入安全模式？,question
-363,商米M1如何退出安全模式？,question
-364,商米M1内置GPS芯片吗？是否支持GPS定位吗,question
-365,商米M1如何取消点击屏幕导航按键的震动效果,question
-366,商米M1是否支持外接其他设备,question
-367,商米M1硬件管家可以检查哪些项目,question
-368,商米M1开不了机（如设备电量过低），如何处理,question
-369,商米M1无法充电怎么处理,question
-370,商米M1安装应用时提示“储存空间不足”怎么处理,question
-371,商米M1 使用卡顿怎么处理,question
-372,商米M1设备死机,question
-373,商米M1扫码模糊、反应速度慢，怎么解决,question
-374,商米M1APP使用时没有声音提示,question
-375,商米M1插入流量卡无法联网,question
-376,商米M1连接WLAN时提示网络连接失败；WiFi上网慢，网络不稳定，一会儿有网一会儿断,question
-377,商米M1APP使用时显示网络连接失败,question
-378,商米M1系统更新后开机显示“未知错误，请重启”，怎么办,question
-379,商米K1机器怎么关机？,question
-380,商米K1机器怎么重启？,question
-381,商米K1屏幕按什么都不动了，一直卡死机状态,question
-382,商米K1我怎么插USB,question
-383,商米K1整机电源开关,question
-384,商米K1开机设置说明,question
-385,商米K1如何下载／使用应用,question
-386,商米K1什么是霸屏模式,question
-387,"商米K1霸屏应用出现问题无法响应怎么办
+﻿qid,questions,intention
+1,你好,greeting
+2,你好么,greeting
+3,你好吗,greeting
+4,你好呀,greeting
+5,近来一切可好,greeting
+6,近来如何,greeting
+7,最近过得怎么样,greeting
+8,假期还好么,greeting
+9,你好，很高兴认识你,greeting
+10,好久不见，最近怎么样,greeting
+11,好久不见，最近过得怎么样,greeting
+12,你好啊,greeting
+13,早上好,greeting
+14,晚上好,greeting
+15,中午好,greeting
+16,你好呀,greeting
+17,在干嘛呢,greeting
+18,今天怎么不开心,greeting
+19,在干嘛呢,greeting
+20,好久不见，你在哪里,greeting
+21,兄弟，好久不见，好不容易才找到你,greeting
+22,当我想起你，我感觉离你很近，离这个世界很远,greeting
+23,打扰您了,greeting
+24,吃饭了么,greeting
+25,这段时间忙么,greeting
+26,这段时间在忙啥,greeting
+27,近况如何,greeting
+28,很高兴认识你,greeting
+29,很高兴见到你,greeting
+30,你过得怎么样,greeting
+31,你好，你是谁,greeting
+32,你是谁,greeting
+33,你在吗,greeting
+34,今天在忙啥,greeting
+35,最近生活和工作都还好吗,greeting
+36,Hello,greeting
+37,Hi ,greeting
+38,哈喽,greeting
+39,嗨，你好,greeting
+40,嗨，很高兴遇见你,greeting
+41,嗨，今天第一次问你问题,greeting
+42,今天在忙啥呢,greeting
+43,别张口闭口的就带着你爹你妈，你那么孝顺怎么不在家呆着？,chatty
+44,前面的大姐，对不起啊，您体型有点庞大啊，挡住我手机信号了。,chatty
+45,拿你当人的时候，你尽量走人道好吗。,chatty
+46,6666666,chatty
+47,666,chatty
+48,不要说别人脑子有病，脑子有病的前提是必须有个脑子。,chatty
+49,你特么是不是有病,chatty
+50,每次我看你吃猪肉都万分感慨。本是同根生。相煎何太急。,chatty
+51,狗叫嚣有什么用，真咬到我，才算你本事、嫉妒归嫉妒，做人不要做狗，在背后诋毁有意思？,chatty
+52,不要把自己当回事。请问你是谁。,chatty
+53,特么的,chatty
+54,你特么到底能做什么,chatty
+55,请问你有什么好牛的。说出来给我乐呵乐呵。,chatty
+56,陪我玩一会,chatty
+57,你自不量力的在我面前装，我也只好笑着看着你继续装。,chatty
+58,给你面子你不要。你是有多不要脸。,chatty
+59,你这货，太让我费心了.,chatty
+60,有娘养没娘教育的,chatty
+61,我就想不通那深沟桥的臭水沟怎么跑到你脑子里去了。,chatty
+62,要不要脸,chatty
+63,你要不要脸,chatty
+64,您就说。您要脸。您真要脸，我就没见过比你要脸的。,chatty
+65,傻逼,chatty
+66,你特么怎么这么傻逼,chatty
+67,傻币就像南方的农作物，一年三熟，从来都不带歇气儿的。,chatty
+68,您的容貌的存在就是对市容城管的一种侮辱。,chatty
+69,你他妹的吃了多少勇气果子敢这么跟我说话。,chatty
+70,你他妈的,chatty
+71,婊子,chatty
+72,陪我说说话,chatty
+73,人品问题永远是自己本质的完犊子。,chatty
+74,你都不如一条狗，我给狗扔块骨头它都知道冲我摇摇尾巴。,chatty
+75,您别总日啊日的。你家老母狗都快怀孕了。,chatty
+76,我有点无聊,chatty
+77,我有点寂寞,chatty
+78,陪我说会话,chatty
+79,我有点寂寞了,chatty
+80,我现在有点无聊,chatty
+81,我好烦,chatty
+82,你到底会做什么,chatty
+83,瞧你那副低俗不堪的衰样,chatty
+84,你干嘛用屁股挡住脸啊,chatty
+85,你这个笨蛋,chatty
+86,你这个白痴,chatty
+87,这么不要脸,chatty
+88,有病,chatty
+89,你特么有病,chatty
+90,劳资不操你妈你就不知道我是你爸,chatty
+91,草泥马,chatty
+92,不要再装牛B了,chatty
+93,装逼,chatty
+94,你那脑袋里装的全是屎,chatty
+95,我无语了,chatty
+96,我非常无语,chatty
+97,要你有什么用,chatty
+98,你真白痴,chatty
+99,你特么真白痴,chatty
+100,你连这不会回答,chatty
+101,亲爱的,chatty
+102,傻逼,chatty
+103,沙雕,chatty
+104,傻吊,chatty
+105,傻屌,chatty
+106,垃圾机器人,chatty
+107,机器人好笨啊,chatty
+108,智障,chatty
+109,人工智障,chatty
+110,去他妈的,chatty
+111,去他娘的,chatty
+112,小闪支持扫描商品条码吗？,question
+113,小闪支持扫条码吗？,question
+114,小闪支持扫商品条码吗？,question
+115,商米T1 mini如何使用应用,question
+116,商米T1 mini如何下载应用,question
+117,商米T1 mini系统预置软件列表,question
+118,商米T1 mini死机怎么办,question
+119,商米T1 mini打印机不工作,question
+120,商米T1 mini打印内容空白,question
+121,商米T1 mini打印内容模糊,question
+122,商米T1外观介绍,question
+123,商米T1安装说明,question
+124,商米T1开机设置说明,question
+125,商米T1如何下载应用,question
+126,商米T1如何使用应用,question
+127,商米T1如何截屏,question
+128,商米T1连接网线后，如何设置固定IP,question
+129,商米T1如何设置固定IP,question
+130,商米T1如何设置固定IP联网,question
+131,商米T1连接网线后，如何设置固定IP联网,question
+132,商米T1系统更新会自动下载吗？,question
+133,商米T1如何将机器升级到最新版本,question
+134,商米T1如何将机器升级到最新的系统版本,question
+135,商米T1如何查看当前的系统版本,question
+136,商米T1如何恢复出厂设置（主屏）,question
+137,商米T1如何恢复出厂设置（14寸副屏）,question
+138,商米T1可以提供系统刷机包吗,question
+139,商米T1设备是否可以获取ROOT权限,question
+140,商米T1如何设置锁屏密码,question
+141,商米T1设备设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
+142,商米T1系统安全模式是什么,question
+143,商米T1如何进入安全模式？,question
+144,商米T1如何退出安全模式？,question
+145,商米T1产品的存储空间为什么跟规格标示的不一样,question
+146,商米T1如何扩展收银机的存储空间,question
+147,商米T1如何删除不需要的文件,question
+148,商米T1如何清理缓存,question
+149,商米T1如何调整显示字体的大小,question
+150,商米T1为什么文字变成加粗黑体显示,question
+151,商米T1如何使用副屏播放视频,question
+152,商米T1如何使用副屏播放演示图片广告,question
+153,商米T1调节音量,question
+154,商米T1调节音量大小,question
+155,商米T1如何安装第三方APP,question
+156,"商米T1安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理",question
+157,商米T1如何停用不必要的应用,question
+158,商米T1为什么有部分应用无法卸载,question
+159,商米T1支持哪些外接哪些硬件,question
+160,商米T1是否支持外接RS232接口的设备，如打印机、电子秤,question
+161,商米T1如何外接钱箱,question
+162,商米T1如何外接扫码枪,question
+163,商米T1如何外接电子秤,question
+164,商米T1是否支持刷金融银行卡？,question
+165,商米T1如何加装商米刷卡器（MSR/RFID读卡器）？,question
+166,商米T1如何外接会员卡读写器,question
+167,商米T1是否支持通过HDMI连接电视显示屏,question
+168,商米T1是否支持外接摄像头使用,question
+169,商米T1能否连接USB密码键盘,question
+170,商米T1能否连接U盘传输文件,question
+171,商米T1是否支持外接USB接口的3G/4G无线上网卡,question
+172,商米T1是否支持4G全网通SIM卡模块,question
+173,商米T1是否有内置MIC,question
+174,商米T1使用USB线连接电脑传输文件，如何操作,question
+175,商米T1收银机使用USB数据线连接电脑传输文件，无法选择USB连接类型，如何处理,question
+176,商米T1使用哪种规格的热敏纸,question
+177,商米T1可否使用58规格的热敏纸,question
+178,商米T1如何拆下58规格打印挡板，切换使用80规格打印纸？,question
+179,其他设备是否可以把T1当蓝牙打印机来使用,question
+180,商米T1如何在APP中通过蓝牙连接自带的打印机？,question
+181,商米T1内置打印机是否支持打印热敏标签,question
+182,商米T1内置打印机是否支持打印不干胶标签,question
+183,商米T1T1是否支持黑标打印,question
+184,商米T1硬件管家可以检查哪些硬件功能是否正常,question
+185,商米T1开不了机,question
+186,商米T1死机怎么办,question
+187,商米T1初次开机，无法激活,question
+188,商米T1系统更新下载升级包失败,question
+189,商米T1连接WiFi提示网络连接失败,question
+190,商米T1WiFi连接后不能上网,question
+191,商米T1插入网线连接后，无法连接网络,question
+192,商米T1为什么T1网络测速比电脑网络测试要慢,question
+193,商米T1外接扫码枪不能使用,question
+194,商米T1外接扫码枪不能扫码,question
+195,商米T1用扫码枪或扫码盒扫描二维码识别数值不完整，,question
+196,商米T1用扫码枪或扫码盒扫描二维码识别缺少部分数值,question
+197,商米T1用扫码枪或扫码盒扫描条码识别数值不完整，,question
+198,商米T1用扫码枪或扫码盒扫描条码识别缺少部分数值,question
+199,商米T1收银机连接USB扫码枪，不显示屏幕键盘,question
+200,商米T1无法识别SD卡，不能读SD卡,question
+201,商米T1APP使用时没有声音提示,question
+202,商米T1外接音箱调高音量，重启设备后，为什么音量会变小？,question
+203,商米T1外接音箱输出的音量比原来的声音小,question
+204,商米T1双屏14寸，从应用市场下载双屏应用，一直显示安装中，怎么处理？,question
+205,商米T1屏幕触控异常,question
+206,商米T1双屏：副屏黑屏，不显示，主屏正常显示,question
+207,商米T1双屏：桌面不显示 “副屏设置”图标,question
+208,商米T1双屏：识别不到副屏，无法获取副屏信息,question
+209,商米T1双屏：发送文件到副屏失败，主屏发送信息给副屏不显示，副屏显示卡住，不刷新,question
+210,商米T1双屏：系统更新检测不到新版本，显示“断开连接”,question
+211,商米T1打印机门打不开，如何处理,question
+212,商米T1打印机门关不上，如何处理,question
+213,商米T1打印机门盖打不开，如何处理,question
+214,商米T1打印机门盖关不上，如何处理,question
+215,商米T1打印走纸不正常，如何处理,question
+216,商米T1打印机切纸不正常，如何处理,question
+217,商米T1打印机切纸只能切一半，如何处理,question
+218,商米T1为什么T1打印机打印出来的内容全是黑块,question
+219,商米T1打印空白，出现提示“未检测到黑标，请检查,question
+220,商米T1打印机小票打印的内容没有居中，只有一半,question
+221,商米T1打印机不工作，报“打印机未准备好”，如何处理,question
+222,商米T1打印机不工作，报“打印机切刀已经修复”，如何处理,question
+223,商米T1显示2个相同的图片如何处理,question
+224,商米T2有那几款配置,question
+225,商米T2外观介绍,question
+226,商米T2开机设置说明,question
+227,商米T2如何下载、使用应用,question
+228,商米T2如何截屏,question
+229,商米T2连接网线后，如何设置固定IP联网,question
+230,商米T2系统更新会自动下载吗？会不会影响到日常工作,question
+231,商米T2如何将机器升级到最新的系统版本,question
+232,商米T2如何查看当前的系统版本,question
+233,商米T2如何恢复出厂设置,question
+234,商米T2是否可以提供系统刷机包吗,question
+235,商米T2设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
+236,商米T2如何设置锁屏密码,question
+237,商米T2设备设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
+238,商米T2系统安全模式是什么,question
+239,商米T2如何进入安全模式？,question
+240,商米T2如何退出安全模式？,question
+241,商米T2如何退出App的霸屏模式？App全屏运行时找不到返回键无法退出应用”？,question
+242,商米T2收银机内置什么输入法，安装第三方输入法怎么切换使用？,question
+243,商米T2产品的存储空间为什么跟规格标示的不一样,question
+244,商米T2如何扩展收银机的存储空间,question
+245,商米T2可用存储空间少，如何清理缓存和删除不需要的文件,question
+246,商米T2如何调整显示字体的大小,question
+247,商米T2如何调整文字显示大小,question
+248,商米T2为什么文字变成加粗黑体显示,question
+249,商米T2如何使用副屏播放视频或者演示图片广告,question
+250,商米T2调节音量大小,question
+251,商米T2在应用市场中找不到要下载的APP，如何安装第三方APP,question
+252,"商米T2安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理",question
+253,商米T2如何停用不必要的应用,question
+254,商米T2为什么有部分应用无法卸载,question
+255,商米T2支持外接哪些硬件？,question
+256,商米T2是否支持外接RS232接口的设备，如打印机、电子秤,question
+257,商米T2如何外接钱箱,question
+258,商米T2如何外接扫码枪,question
+259,商米T2如何外接电子秤,question
+260,商米T2如何外接会员卡读写器？,question
+261,商米T2是否支持通过HDMI连接电视显示屏,question
+262,商米T2是否支持外接摄像头使用？,question
+263,商米T2能否连接USB密码键盘？,question
+264,商米T2能否连接U盘传输文件？,question
+265,商米T2是否支持外接USB接口的3G/4G无线上网卡？,question
+266,商米T2是否支持4G 全网通SIM卡模块？,question
+267,商米T2是否有内置MIC？,question
+268,商米T2T2使用USB数据线连接电脑传输文件，如何操作？,question
+269,商米T2收银机使用USB数据线连接电脑传输文件，无法选择USB连接类型，如何处理？,question
+270,商米T2使用哪种规格的热敏纸？,question
+271,商米T2可否使用58规格的热敏纸？,question
+272,商米T2如何拆下58规格打印挡板，切换使用80规格打印纸？,question
+273,商米T2其他设备是否可以把T2当蓝牙打印机来使用？,question
+274,商米T2如何在APP中通过蓝牙连接自带的打印机？(APP通过蓝牙调用内置打印机),question
+275,商米T2内置打印机是否支持打印热敏标签/不干胶标签？,question
+276,商米T2是否支持黑标打印？,question
+277,商米T2硬件管家可以检查哪些硬件功能是否正常？,question
+278,商米T2开不了机，如何处理？,question
+279,商米T2死机怎么办？,question
+280,商米T2初次开机，无法激活，如何处理？,question
+281,商米T2系统更新下载升级包失败，如何处理？,question
+282,商米T2连接WiFi提示网络连接失败；WiFi连接后不能上网,question
+283,商米T2插入网线连接后，无法连接网络,question
+284,商米T2为什么T2网络测速比电脑网络测试要慢,question
+285,商米T2外接扫码枪不能使用、不能扫码,question
+286,商米T2用扫码枪或扫码盒扫描条码/二维码识别数值不完整，缺少部分数值,question
+287,商米T2收银机连接USB扫码枪，不显示屏幕键盘,question
+288,商米T2无法识别SD卡，不能读SD卡,question
+289,商米T2APP使用时没有声音提示,question
+290,商米T2外接音箱调高音量，重启设备后，为什么音量会变小？,question
+291,商米T2外接音箱输出的音量比原来的声音小,question
+292,商米T2屏幕触控异常,question
+293,商米T2双屏：副屏黑屏，不显示，主屏正常显示,question
+294,商米T2打印内容空白，怎么处理？,question
+295,商米T2打印变淡、打印模糊、打印字体不清晰 ,question
+296,商米T2打印机门盖打不开，如何处理？,question
+297,商米T2打印机门盖关不上，如何处理？,question
+298,商米T2打印机切纸只能切一半，如何处理？,question
+299,商米T2为什么打印机打印出来的内容全是黑块？,question
+300,商米T2打印空白，出现提示“未检测到黑标，请检查”,question
+301,商米T2打印机小票打印的内容没有居中，只有一半？,question
+302,商米T2打印机不工作，报“打印机未准备好”，如何处理？,question
+303,商米T2打印机不工作，报“打印机切刀已经修复”，如何处理？,question
+304,商米T2打印机不工作，报“打印纸未准备好”，如何处理？,question
+305,商米V2 Pro支持什么种类的SIM卡,question
+306,商米V2 Pro充电器,question
+307,商米V2 Pro的工作温度是多少？,question
+308,商米V2 Pro插入流量卡、物联卡无法联网怎么处理？,question
+309,商米V2 Pro如何截屏？,question
+310,商米V2 Pro4G版如何使用eSIM卡连接移动网络？,question
+311,商米V2 Pro是否支持WiFi热点分享？,question
+312,商米V2 Pro如何设置快速打开应用的快捷键？,question
+313,商米V2 Pro如何查看流量使用情况？,question
+314,商米V2 Pro测试扫码头是否能够正常工作（V2 PRO 4G高配版）,question
+315,商米V2 Pro如何修改一维扫码头的扫描识别设置？,question
+316,商米V2 Pro如何调整文字显示大小？,question
+317,商米V2 Pro为什么文字变成加粗黑体显示？,question
+318,商米V2 Pro如何调整屏幕显示大小？,question
+319,商米V2 Pro如何设置手持收银设备的音量？,question
+320,商米V2 Pro在应用市场中找不到要下载的APP，如何安装第三方APP？,question
+321,"商米V2 Pro安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理？",question
+322,商米V2 Pro手持收银设备内置什么输入法，安装第三方输入法怎么切换使用？,question
+323,"商米V2 Pro从应用市场下载应用提示""应用下载失败，请检查网络后重新下载”，如何处理？",question
+324,商米V2 Pro如何停用不必要的应用？,question
+325,商米V2 Pro为什么有部分应用无法卸载？,question
+326,商米V2 Pro系统更新会自动下载吗？会不会影响到日常工作？,question
+327,商米V2 Pro如何禁止系统及应用在4G状态下自动更新,question
+328,商米V2 Pro如何恢复出厂设置,question
+329,商米V2 Pro时间不对，时间设置怎么是灰色的？,question
+330,商米V2 Pro是否提供系统刷机包,question
+331,商米V2 Pro商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
+332,商米V2 Pro内置GPS芯片吗？是否支持GPS定位？,question
+333,商米V2 Pro设置密码锁屏，但是忘记了密码，怎么处理,question
+334,商米V2 Pro安全模式是什么？不小心进入了安全模式，怎么退出？屏幕上的应用图标是灰色的，无法打开，怎么解决？,question
+335,商米V2 Pro可用存储空间少，如何清理缓存和删除不需要的文件？,question
+336,商米V2 Pro是否支持OTG，是否支持外接USB设备？,question
+337,商米V2 Pro是否支持会员卡、积分卡？支持哪类非接卡？,question
+338,商米V2 Pro使用USB线连接PC后，怎么传输文件？,question
+339,商米V2 Pro使用哪种规格的热敏纸？,question
+340,商米V2 Pro其他设备是否可以把V2 PRO当蓝牙打印机来使用？,question
+341,商米V2 Pro手持机是否支持打印热敏标签/不干胶标签？,question
+342,商米V2 Pro如何使用硬件管家检测硬件功能是否正常？,question
+343,商米V2 Pro开不了机（如设备电量过低），如何处理？,question
+344,商米V2 Pro无法充电，如何处理？,question
+345,商米V2 Pro充电电量到90%以上到充满需要花很长时间，充电速度慢；为什么95%以上电量不能充电？,question
+346,商米V2 Pro耗电快怎么处理？,question
+347,商米V2 Pro使用卡顿怎么处理？,question
+348,商米V2 Pro死机怎么办？,question
+349,商米V2 Pro扫码模糊、反应速度慢，怎么解决？,question
+350,商米V2 Pro使用的APP没有声音提示,question
+351,商米V2 Pro连接WiFi提示网络连接失败；WiFi连接后不能上网,question
+352,商米V2 Pro我使用的APP不能联网，显示网络连接失败,question
+353,商米V2 Pro系统提示“无法连接到相机，请确保已关闭会使用相机或闪光灯的应用程序。”,question
+354,商米V2 Pro开机一直出现“com.android.phone”停止运行，按确认会重启，进不了系统,question
+355,商米V2 Pro开机黑屏，出现提示：未知错误，请重启,question
+356,商米V2 Pro屏幕一直亮着，自动亮屏，耗电快,question
+357,商米V2 Pro使用饿了么app，打印首单提示“打印机连接异常”,question
+358,商米V2 Pro我使用的APP不能打印，怎么办？,question
+359,商米V2 Pro打印内容空白，怎么处理？,question
+360,商米V2 Pro打印不走纸，怎么处理？,question
+361,商米V2 Pro打印变淡、打印模糊、打印字体不清晰 ,question
+362,商米V2 Pro打印机有打印纸的情况下出现“打印纸未准备好”的警报是什么原因导致的？,question
+363,商米V2 Pro“打印头过热，请等待冷却” 怎么解除设备的安全报警？,question
+364,商米V2 Pro打印模糊,question
+365,商米V2 Pro如何在APP中通过蓝牙连接自带的打印机？,question
+366,商米V2 Pro如何调整打印清晰度？,question
+367,商米V2 Pro如何调整打印字体大小？,question
+368,商米V2 Pro如何调整打印字体的样式？,question
+369,商米P1外观介绍,question
+370,商米P1充电及电池说明,question
+371,商米P1电池说明/注意事项 ,question
+372,商米P1打印纸安装说明,question
+373,商米P1安装SIM卡说明,question
+374,商米P1开机设置说明,question
+375,商米P1如何下载／使用应用,question
+376,商米P1电池维护,question
+377,商米P1打印头维护,question
+378,商米P1设备支持哪些运营商的SIM卡,question
+379,商米P1如何连接移动网络,question
+380,商米P1如何查看流量使用情况,question
+381,商米P1如何截屏,question
+382,商米P1设置快速打开应用的快捷键（快速扫码）,question
+383,商米P1屏幕顶部出现的禁止图标经是什么,question
+384,商米P1屏幕顶部出现的星号图标是什么,question
+385,"商米P1商米设备上的""用户反馈""有什么用",question
+386,"商米P1商米设备上的""耗材商城""有什么用",question
+387,商米P1应用市场中找不到要下载的APP，如何安装第三方APP,question
+388,商米P1下载第三方APP更新后，点进去 提示“出于安全考虑，设备已设置为禁止安装来源不明的应用“，但是在设置->安全的未知来源选项是灰色的，不能打开，怎么处理？,question
+389,商米P1系统更新会自动下载吗？会不会影响到日常工作,question
+390,商米P1关闭系统及应用在3G/4G状态下自动更新,question
+391,商米P1在P1使用高峰期的时候，为什么系统一直提示需要重启？,question
+392,商米P1如何恢复出厂设置,question
+393,商米P1设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
+394,商米P1系统安全模式是什么,question
+395,商米P1如何进入安全模式？,question
+396,商米P1如何退出安全模式？,question
+397,商米P1是否支持外接其他设备,question
+398,商米P1使用哪种规格的热敏纸规格,question
+399,商米P1其他设备是否可以把P1当蓝牙打印机来使用,question
+400,商米P1如何在APP中通过蓝牙连接商米P1的打印机,question
+401,商米P1调整打印清晰度,question
+402,商米P1设备是否支持打印热敏标签/不干胶标签,question
+403,商米P1硬件管家可以检查哪些项目,question
+404,商米P1开不了机（如设备电量过低），如何处理,question
+405,商米P1电池充电不通电,question
+406,商米P1充电就发烫，然后自动关机，怎么处理,question
+407,商米P1死机怎么办,question
+408,商米P1APP使用时没有声音提示,question
+409,商米P1无法识别SIM卡，如何处理,question
+410,商米P1插入流量卡无法联网怎么处理,question
+411,商米P1连接WLAN时提示网络连接失败；WiFi上网慢，上网不稳定，上网断,question
+412,商米P1APP使用时显示网络连接失败,question
+413,商米P1业务APP不能打印，怎么办,question
+414,商米P1打印内容空白，怎么处理,question
+415,商米P1打印不走纸或打印很慢，怎么处理,question
+416,商米P1打印变淡、打印模糊、打印字体整体不清晰,question
+417,商米P1开机发出滴滴滴报警音，显示“POS机受到攻击，请联系经销商”，怎么解除,question
+418,商米P1使用收银类APP的时候选扫码支付出现卡死状态，如何处理,question
+419,商米P1NFC刷卡无反应,question
+420,商米P14G切换渠道后新的自定义桌面不生效的问题,question
+421,商米P1屏幕右上角的LED灯在哪些场景会起作用,question
+422,商米P1LED指示灯状态说明,question
+423,商米P1支持哪类IC卡片？支持哪类非接卡/非接触卡？,question
+424,商米M1外观介绍,question
+425,商米M1充电及电池说明,question
+426,商米M1电池说明/注意事项,question
+427,商米M1 安装SIM卡说明,question
+428,商米M1开机设置说明,question
+429,商米M1如何下载／使用应用,question
+430,商米M1充电底座维护,question
+431,商米M1电池维护,question
+432,商米M1设备支持哪些运营商的SIM卡,question
+433,商米M1如何连接移动网络,question
+434,商米M1如何查看流量使用情况,question
+435,商米M1是否支持拨打电话和发送接收短信,question
+436,商米M1商米设备是否和其他安卓手机一样，能支持WiFi热点分享吗？,question
+437,商米M1如何使用设备截屏,question
+438,商米M1如何设置快速打开应用的快捷键,question
+439,商米M1屏幕顶部出现的禁止图标经是什么,question
+440,商米M1屏幕顶部出现的星号图标是什么,question
+441,"商米M1设备上的""用户反馈""有什么作用",question
+442,"商米M1设备上的""耗材商城""有什么用",question
+443,商米M1应用市场中找不到要下载的APP，如何安装第三方APP,question
+444,"商米M1安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理",question
+445,商米M1如何查看机具是哪个渠道商出货的机具？,question
+446,商米M1如何停用不必要的应用,question
+447,商米M1为什么有部分应用无法卸载,question
+448,商米M1机器内置什么输入法，安装了第三方输入法怎么切换,question
+449,商米M1系统更新会自动下载吗？会不会影响到日常工作,question
+450,商米M1怎么擦你能禁止系统及应用在3G状态下自动更新,question
+451,商米M1如何恢复出厂设置,question
+452,商米M1可以提供系统刷机包吗,question
+453,商米M1可以提供系统刷机包吗？商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
+454,商米M1设备设置了PIN码锁屏，但是忘记锁屏密码，怎么处理,question
+455,商米M1系统安全模式是什么,question
+456,商米M1如何进入安全模式？,question
+457,商米M1如何退出安全模式？,question
+458,商米M1内置GPS芯片吗？是否支持GPS定位吗,question
+459,商米M1如何取消点击屏幕导航按键的震动效果,question
+460,商米M1是否支持外接其他设备,question
+461,商米M1硬件管家可以检查哪些项目,question
+462,商米M1开不了机（如设备电量过低），如何处理,question
+463,商米M1无法充电怎么处理,question
+464,商米M1安装应用时提示“储存空间不足”怎么处理,question
+465,商米M1 使用卡顿怎么处理,question
+466,商米M1设备死机,question
+467,商米M1扫码模糊、反应速度慢，怎么解决,question
+468,商米M1APP使用时没有声音提示,question
+469,商米M1插入流量卡无法联网,question
+470,商米M1连接WLAN时提示网络连接失败；WiFi上网慢，网络不稳定，一会儿有网一会儿断,question
+471,商米M1APP使用时显示网络连接失败,question
+472,商米M1系统更新后开机显示“未知错误，请重启”，怎么办,question
+473,商米K1机器怎么关机？,question
+474,商米K1机器怎么重启？,question
+475,商米K1屏幕按什么都不动了，一直卡死机状态,question
+476,商米K1我怎么插USB,question
+477,商米K1整机电源开关,question
+478,商米K1开机设置说明,question
+479,商米K1如何下载／使用应用,question
+480,商米K1什么是霸屏模式,question
+481,"商米K1霸屏应用出现问题无法响应怎么办
 （划屏无反应，屏幕无响应）",question
-388,商米K1霸屏模式的密码怎么解锁,question
-389,商米K1怎么截屏,question
-390,商米K1截图照片的存储路径,question
-391,商米K1如何查看无线网卡MAC地址,question
-392,商米K1如何查看有线网卡MAC地址,question
-393,商米K1有线网连接后，如何设置固定IP联网?,question
-394,商米K1WiFi连接后，如何设置固定IP联网?,question
-395,商米K1如何将机器升级到最新的系统版本,question
-396,商米K1如何查看当前的系统版本？,question
-397,商米K1系统更新会自动下载吗？会不会影响到日常工作？,question
-398,商米K1如何恢复出厂设置,question
-399,商米K1设置锁屏，但是忘记锁屏密码，怎么处理,question
-400,商米K1如何调整文字显示大小,question
-401,商米K1如何调整屏幕显示大小,question
-402,商米K1为什么文字变成加粗黑体显示,question
-403,商米K1如何调节音量大小,question
-404,商米K1自助收银机使用哪种规格的热敏纸,question
-405,商米K1屏幕黑屏,question
-406,商米K1系统不断自动重启,question
-407,商米K1内置打印机是否支持打印热敏标签/不干胶标签,question
-408,商米K1打印机不出纸,question
-409,商米K1打印机不切纸,question
-410,商米K1打印机纸仓盖关盖不切纸/上纸困难，上纸关纸盖红灯报警，打印机不工作,question
-411,商米K1打印机纸仓盖关不紧,question
-412,商米K1打印机经常卡纸（堵在亚克力面板口）,question
-413,商米K1打印机走纸异常（打印字体压缩，走纸卡顿，只打印一小节纸就切纸）,question
-414,商米K1打印模糊、机头烧变形、外观损坏,question
-415,商米K1显示屏黑屏,question
-416,商米K1长时间不用显示屏自动黑屏,question
-417,商米K1显示屏内部分区域现鳞状纹理或色彩不均匀,question
-418,商米K1开机卡在sunmi花界面，无法启动,question
-419,商米K1触摸屏部分区域触摸无反应,question
-420,商米K1屏内有异物,question
-421,商米K1刷脸支付闪屏，页面切换有轻微闪屏,question
-422,商米K1喇叭声音卡顿,question
-423,商米K1喇叭没有声音,question
-424,商米K1得利捷扫码器一扫码就一直“嘟嘟”响,question
-425,商米K1扫码器无故出声（偶现）和扫码器灯不亮,question
-426,商米K1扫码器红灯不亮，绿灯常亮但伴有上闪烁,question
-427,商米K1扫码器扫码难扫、扫码不识别,question
-428,商米K1WiFi信号很弱,question
-429,商米K1有线网连接不上或连一会就自动断网,question
-430,商米K1手摸机壳会手发麻,question
-431,商米D2屏幕尺寸,question
-432,商米D2机器怎么关机？,question
-433,商米D2机器怎么重启？,question
-434,商米D2屏幕按什么都不动了，一直卡死机状态,question
-435,"商米D2接口用途：
+482,商米K1霸屏模式的密码怎么解锁,question
+483,商米K1怎么截屏,question
+484,商米K1截图照片的存储路径,question
+485,商米K1如何查看无线网卡MAC地址,question
+486,商米K1如何查看有线网卡MAC地址,question
+487,商米K1有线网连接后，如何设置固定IP联网?,question
+488,商米K1WiFi连接后，如何设置固定IP联网?,question
+489,商米K1如何将机器升级到最新的系统版本,question
+490,商米K1如何查看当前的系统版本？,question
+491,商米K1系统更新会自动下载吗？会不会影响到日常工作？,question
+492,商米K1如何恢复出厂设置,question
+493,商米K1设置锁屏，但是忘记锁屏密码，怎么处理,question
+494,商米K1如何调整文字显示大小,question
+495,商米K1如何调整屏幕显示大小,question
+496,商米K1为什么文字变成加粗黑体显示,question
+497,商米K1如何调节音量大小,question
+498,商米K1自助收银机使用哪种规格的热敏纸,question
+499,商米K1屏幕黑屏,question
+500,商米K1系统不断自动重启,question
+501,商米K1内置打印机是否支持打印热敏标签/不干胶标签,question
+502,商米K1打印机不出纸,question
+503,商米K1打印机不切纸,question
+504,商米K1打印机纸仓盖关盖不切纸/上纸困难，上纸关纸盖红灯报警，打印机不工作,question
+505,商米K1打印机纸仓盖关不紧,question
+506,商米K1打印机经常卡纸（堵在亚克力面板口）,question
+507,商米K1打印机走纸异常（打印字体压缩，走纸卡顿，只打印一小节纸就切纸）,question
+508,商米K1打印模糊、机头烧变形、外观损坏,question
+509,商米K1显示屏黑屏,question
+510,商米K1长时间不用显示屏自动黑屏,question
+511,商米K1显示屏内部分区域现鳞状纹理或色彩不均匀,question
+512,商米K1开机卡在sunmi花界面，无法启动,question
+513,商米K1触摸屏部分区域触摸无反应,question
+514,商米K1屏内有异物,question
+515,商米K1刷脸支付闪屏，页面切换有轻微闪屏,question
+516,商米K1喇叭声音卡顿,question
+517,商米K1喇叭没有声音,question
+518,商米K1得利捷扫码器一扫码就一直“嘟嘟”响,question
+519,商米K1扫码器无故出声（偶现）和扫码器灯不亮,question
+520,商米K1扫码器红灯不亮，绿灯常亮但伴有上闪烁,question
+521,商米K1扫码器扫码难扫、扫码不识别,question
+522,商米K1WiFi信号很弱,question
+523,商米K1有线网连接不上或连一会就自动断网,question
+524,商米K1手摸机壳会手发麻,question
+525,商米D2屏幕尺寸,question
+526,商米D2机器怎么关机？,question
+527,商米D2机器怎么重启？,question
+528,商米D2屏幕按什么都不动了，一直卡死机状态,question
+529,"商米D2接口用途：
 
 ",question
-436,商米D2开机初始化设置,question
-437,商米D2连接网线后，如何设置固定IP联网?,question
-438,商米D2如何下载／使用应用,question
-439,商米D2系统会自动更新吗？,question
-440,商米D2如何将机器升级到最新的系统版本？,question
-441,商米D2如何恢复出厂设置,question
-442,商米D2商米可以提供系统刷机包吗,question
-443,商米D2操作系统是否可以获取ROOT权限？,question
-444,商米D2如何设置锁屏密码？,question
-445,商米D2忘记锁屏密码怎么办,question
-446,商米D2设备内置什么输入法，安装第三方输入法怎么切换使用？,question
-447,商米D2如何调节显示字体的大小,question
-448,商米D2该设备支持哪些外接哪些硬件？,question
-449,商米D2是否支持外接RS232接口的设备，如打印机、电子秤？,question
-450,商米D2如何外接钱箱,question
-451,商米D2如何外接扫码枪？,question
-452,商米D2如何外接电子秤,question
-453,商米D2是否支持通过HDMI连接电视显示屏,question
-454,商米D2是否支持外接USB接口的3G/4G无线上网卡？,question
-455,商米D2是否支持外接摄像头使用,question
-456,商米D2能否连接USB密码键盘,question
-457,商米D2是否有内置MIC可支持语音输入,question
-458,商米D2为什么外接音箱输出的音量比原来的声音小,question
-459,商米D2外接音箱调高音量，重启设备后，为什么音量会变小？,question
-460,商米D2使用USB线连接电脑传输文件，如何操作？,question
-461,商米D2硬件管家可以检查哪些硬件功能是否正常,question
-462,商米D2开不了机，如何处理,question
-463,商米D2开机启动卡在系统加载（显示花瓣logo）页面，如何处理？,question
-464,商米D2设备突然死机了,question
-465,"商米D2使用卡顿怎么处理
+530,商米D2开机初始化设置,question
+531,商米D2连接网线后，如何设置固定IP联网?,question
+532,商米D2如何下载／使用应用,question
+533,商米D2系统会自动更新吗？,question
+534,商米D2如何将机器升级到最新的系统版本？,question
+535,商米D2如何恢复出厂设置,question
+536,商米D2商米可以提供系统刷机包吗,question
+537,商米D2操作系统是否可以获取ROOT权限？,question
+538,商米D2如何设置锁屏密码？,question
+539,商米D2忘记锁屏密码怎么办,question
+540,商米D2设备内置什么输入法，安装第三方输入法怎么切换使用？,question
+541,商米D2如何调节显示字体的大小,question
+542,商米D2该设备支持哪些外接哪些硬件？,question
+543,商米D2是否支持外接RS232接口的设备，如打印机、电子秤？,question
+544,商米D2如何外接钱箱,question
+545,商米D2如何外接扫码枪？,question
+546,商米D2如何外接电子秤,question
+547,商米D2是否支持通过HDMI连接电视显示屏,question
+548,商米D2是否支持外接USB接口的3G/4G无线上网卡？,question
+549,商米D2是否支持外接摄像头使用,question
+550,商米D2能否连接USB密码键盘,question
+551,商米D2是否有内置MIC可支持语音输入,question
+552,商米D2为什么外接音箱输出的音量比原来的声音小,question
+553,商米D2外接音箱调高音量，重启设备后，为什么音量会变小？,question
+554,商米D2使用USB线连接电脑传输文件，如何操作？,question
+555,商米D2硬件管家可以检查哪些硬件功能是否正常,question
+556,商米D2开不了机，如何处理,question
+557,商米D2开机启动卡在系统加载（显示花瓣logo）页面，如何处理？,question
+558,商米D2设备突然死机了,question
+559,"商米D2使用卡顿怎么处理
 （滑动屏幕一直很卡）
 （打开app卡）",question
-466,商米D2初次开机，无法激活，如何处理,question
-467,商米D2系统更新下载升级包失败，如何处理,question
-468,商米D2设备搜不到wifi信号，手机可以搜索到,question
-469,商米D2连接WiFi提示网络连接失败；WiFi连接后不能上网,question
-470,商米D2插入网线连接后，无法连接网络,question
-471,商米D2外接USB扫码枪、外接USB扫码盒不能使用,question
-472,商米D2用扫码枪或扫码盒扫描条码/二维码识别数值不完整，缺少部分数值,question
-473,商米D2屏幕触控异常,question
-474,商米D2双屏机器客显屏（副屏）显示比例不对,question
-475,商米D1S屏幕尺寸,question
-476,商米D1S机器怎么关机？,question
-477,商米D1S机器怎么重启？,question
-478,商米D1S屏幕按什么都不动了，一直卡死机状态,question
-479,"商米D1S接口用途：
+560,商米D2初次开机，无法激活，如何处理,question
+561,商米D2系统更新下载升级包失败，如何处理,question
+562,商米D2设备搜不到wifi信号，手机可以搜索到,question
+563,商米D2连接WiFi提示网络连接失败；WiFi连接后不能上网,question
+564,商米D2插入网线连接后，无法连接网络,question
+565,商米D2外接USB扫码枪、外接USB扫码盒不能使用,question
+566,商米D2用扫码枪或扫码盒扫描条码/二维码识别数值不完整，缺少部分数值,question
+567,商米D2屏幕触控异常,question
+568,商米D2双屏机器客显屏（副屏）显示比例不对,question
+569,商米D1S屏幕尺寸,question
+570,商米D1S机器怎么关机？,question
+571,商米D1S机器怎么重启？,question
+572,商米D1S屏幕按什么都不动了，一直卡死机状态,question
+573,"商米D1S接口用途：
 
 ",question
-480,商米D1S开机初始化设置,question
-481,商米D1S,question
-482,商米D1S连接网线后，如何设置固定IP联网?,question
-483,商米D1S如何使用应用,question
-484,商米D1S如何下载,question
-485,商米D1S系统会自动更新吗？,question
-486,商米D1S如何将机器升级到最新的系统版本？,question
-487,商米D1S如何恢复出厂设置,question
-488,商米D1S商米可以提供系统刷机包吗,question
-489,商米D1S操作系统是否可以获取ROOT权限？,question
-490,商米D1S如何设置锁屏密码？,question
-491,商米D1S忘记锁屏密码怎么办,question
-492,商米D1S设备内置什么输入法，安装第三方输入法怎么切换使用？,question
-493,商米D1S如何调节显示字体的大小,question
-494,商米D1S该设备支持哪些外接哪些硬件？,question
-495,商米D1S是否支持外接RS232接口的设备，如打印机、电子秤？,question
-496,商米D1S如何外接钱箱,question
-497,商米D1S如何外接扫码枪？,question
-498,商米D1S如何外接电子秤,question
-499,商米D1S是否支持通过HDMI连接电视显示屏,question
-500,商米D1S是否支持外接USB接口的3G/4G无线上网卡？,question
-501,商米D1S是否支持外接摄像头使用,question
-502,商米D1S能否连接USB密码键盘,question
-503,商米D1S是否有内置MIC可支持语音输入,question
-504,商米D1S为什么外接音箱输出的音量比原来的声音小,question
-505,商米D1S外接音箱调高音量，重启设备后，为什么音量会变小？,question
-506,商米D1S使用USB线连接电脑传输文件，如何操作？,question
-507,商米D1S硬件管家可以检查哪些硬件功能是否正常,question
-508,商米D1S开不了机，如何处理,question
-509,商米D1S开机启动卡在系统加载（显示花瓣logo）页面，如何处理？,question
-510,商米D1S设备突然死机了,question
-511,"商米D1S使用卡顿怎么处理
+574,商米D1S开机初始化设置,question
+575,商米D1S,question
+576,商米D1S连接网线后，如何设置固定IP联网?,question
+577,商米D1S如何使用应用,question
+578,商米D1S如何下载,question
+579,商米D1S系统会自动更新吗？,question
+580,商米D1S如何将机器升级到最新的系统版本？,question
+581,商米D1S如何恢复出厂设置,question
+582,商米D1S商米可以提供系统刷机包吗,question
+583,商米D1S操作系统是否可以获取ROOT权限？,question
+584,商米D1S如何设置锁屏密码？,question
+585,商米D1S忘记锁屏密码怎么办,question
+586,商米D1S设备内置什么输入法，安装第三方输入法怎么切换使用？,question
+587,商米D1S如何调节显示字体的大小,question
+588,商米D1S该设备支持哪些外接哪些硬件？,question
+589,商米D1S是否支持外接RS232接口的设备，如打印机、电子秤？,question
+590,商米D1S如何外接钱箱,question
+591,商米D1S如何外接扫码枪？,question
+592,商米D1S如何外接电子秤,question
+593,商米D1S是否支持通过HDMI连接电视显示屏,question
+594,商米D1S是否支持外接USB接口的3G/4G无线上网卡？,question
+595,商米D1S是否支持外接摄像头使用,question
+596,商米D1S能否连接USB密码键盘,question
+597,商米D1S是否有内置MIC可支持语音输入,question
+598,商米D1S为什么外接音箱输出的音量比原来的声音小,question
+599,商米D1S外接音箱调高音量，重启设备后，为什么音量会变小？,question
+600,商米D1S使用USB线连接电脑传输文件，如何操作？,question
+601,商米D1S硬件管家可以检查哪些硬件功能是否正常,question
+602,商米D1S开不了机，如何处理,question
+603,商米D1S开机启动卡在系统加载（显示花瓣logo）页面，如何处理？,question
+604,商米D1S设备突然死机了,question
+605,"商米D1S使用卡顿怎么处理
 （滑动屏幕一直很卡）
 （打开app卡）",question
-512,商米D1S初次开机，无法激活，如何处理,question
-513,商米D1S系统更新下载升级包失败，如何处理,question
-514,商米D1S设备搜不到wifi信号，手机可以搜索到,question
-515,商米D1S连接WiFi提示网络连接失败；WiFi连接后不能上网,question
-516,商米D1S插入网线连接后，无法连接网络,question
-517,商米D1S外接USB扫码枪、外接USB扫码盒不能使用,question
-518,商米D1S用扫码枪或扫码盒扫描条码/二维码识别数值不完整，缺少部分数值,question
-519,商米D1S屏幕触控异常,question
-520,商米D1S双屏机器客显屏（副屏）显示比例不对,question
-521,商米V1s充电及电池说明,question
-522,商米V1s安装SIM卡说明,question
-523,商米V1s如何下载应用,question
-524,商米V1s产品的工作温度是多少？,question
-525,商米V1s电池维护,question
-526,商米V1s打印头维护,question
-527,商米V1s设备支持哪些运营商的SIM卡？,question
-528,商米V1s如何连接移动网络？,question
-529,商米V1s如何查看流量使用情况？ ,question
-530,商米V1sV1s是否支持WiFi热点分享,question
-531,商米V1s如何截屏,question
-532,商米V1s如何设置快速打开应用的快捷键？（快速扫码）,question
-533,商米V1s屏幕顶部出现的禁止图标是什么？,question
-534,商米V1s屏幕顶部出现的星号图标是什么？,question
-535,商米V1s在应用市场中找不到要下载的APP，如何安装第三方APP？,question
-536,"商米V1s安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理？",question
-537,"商米V1s从应用市场下载应用提示""应用下载失败，请检查网络后重新下载”，如何处理？",question
-538,商米V1s如何停用不必要的应用？,question
-539,商米V1s为什么有部分应用无法卸载？,question
-540,商米V1s商米机器内置什么输入法，安装第三方输入法怎么切换使用？,question
-541,商米V1s如何禁止系统及应用在3G状态下自动更新,question
-542,商米V1s如何恢复出厂设置,question
-543,商米V1s时间不对，时间设置怎么是灰色的？,question
-544,商米V1s商米可以提供系统刷机包吗？,question
-545,商米V1s商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
-546,商米V1s内置GPS芯片吗？是否支持GPS定位？,question
-547,商米V1s设置密码锁屏，但是忘记了密码，怎么处理,question
-548,商米V1s安全模式是什么？不小心进入了安全模式，怎么退出？屏幕上的应用图标是灰色的，无法打开，怎么解决？,question
-549,商米V1s如何进入安全模式？,question
-550,商米V1s如何退出安全模式？,question
-551,商米V1s可用存储空间少，如何清理缓存和删除不需要的文件？,question
-552,商米V1s是否支持OTG，是否支持外接USB设备？,question
-553,商米V1s是否支持会员卡、积分卡？支持哪类非接卡？,question
-554,商米V1s使用USB线连接PC后，怎么传输文件？？,question
-555,商米V1s使用哪种规格的热敏纸？,question
-556,商米V1s其他设备是否可以把V1s当蓝牙打印机来使用？,question
-557,商米V1s如何在APP中通过蓝牙连接自带的打印机？,question
-558,商米V1s如何调整打印清晰度？,question
-559,商米V1s如何调整打印字体大小？,question
-560,商米V1s手持机是否支持打印热敏标签、不干胶标签？,question
-561,商米V1s为什么V1s打印速度比V1慢,question
-562,商米V1s如何使用硬件管家检测硬件功能是否正常？,question
-563,商米V1s开不了机（如设备电量过低），如何处理？,question
-564,商米V1s无法充电，如何处理？,question
-565,商米V1s充电电量到90%以上到充满需要花很长时间，充电速度慢；为什么95%以上电量不能充电？,question
-566,商米V1s充电就发烫，然后自动关机，怎么处理？,question
-567,商米V1s耗电快怎么处理？,question
-568,商米V1s使用卡顿怎么处理？,question
-569,商米V1s死机怎么办？,question
-570,商米V1s我使用的APP没有声音提示,question
-571,商米V1s插入流量卡、物联卡无法联网怎么处理？,question
-572,商米V1s搜不到指定的WiFi，但是用手机可以搜索到 ,question
-573,商米V1s连接WiFi提示网络连接失败；WiFi连接后不能上网,question
-574,商米V1s系统提示“无法连接到相机，请确保已关闭会使用相机或闪光灯的应用程序。,question
-575,商米V1s开机一直出现“com.android.phone”停止运行，按确认会重启，进不了系统,question
-576,商米V1s开机黑屏，出现提示：未知错误，请重启,question
-577,商米V1s开机黑屏，出现英文提示：Select Boot Mode,question
-578,商米V1s屏幕一直亮着，自动亮屏，耗电快,question
-579,商米V1s为什么喇叭声音没有V1响？,question
-580,商米V1s我使用的APP不能打印，怎么办？,question
-581,商米V1s打印内容空白，怎么处理？,question
-582,商米V1s打印不走纸或打印很慢，怎么处理？ ,question
-583,商米V1s打印变淡、打印模糊、打印字体不清晰 ,question
-584,商米V1s打印机有打印纸的情况下出现“打印纸未准备好”的警报是什么原因导致的？,question
-585,商米V1s“打印头过热，请等待冷却” 怎么解除设备的安全报警？,question
-586,商米V1s外卖平台自动接单说明,question
-587,商米V1s饿了么商家版APP如何设置自动接单？,question
-588,商米V1s美团外卖商家版APP如何设置自动接单？,question
-589,商米V1s饿了么商家版APP如何设置接单和自动打印？,question
-590,商米V1s美团商家版APP如何设置接单和自动打印？,question
-591,商米V1s美团外卖商家版来订单是只有叮的声音，没有播报语音；接单后不会自动打印；,question
+606,商米D1S初次开机，无法激活，如何处理,question
+607,商米D1S系统更新下载升级包失败，如何处理,question
+608,商米D1S设备搜不到wifi信号，手机可以搜索到,question
+609,商米D1S连接WiFi提示网络连接失败；WiFi连接后不能上网,question
+610,商米D1S插入网线连接后，无法连接网络,question
+611,商米D1S外接USB扫码枪、外接USB扫码盒不能使用,question
+612,商米D1S用扫码枪或扫码盒扫描条码/二维码识别数值不完整，缺少部分数值,question
+613,商米D1S屏幕触控异常,question
+614,商米D1S双屏机器客显屏（副屏）显示比例不对,question
+615,商米V1s充电及电池说明,question
+616,商米V1s安装SIM卡说明,question
+617,商米V1s如何下载应用,question
+618,商米V1s产品的工作温度是多少？,question
+619,商米V1s电池维护,question
+620,商米V1s打印头维护,question
+621,商米V1s设备支持哪些运营商的SIM卡？,question
+622,商米V1s如何连接移动网络？,question
+623,商米V1s如何查看流量使用情况？ ,question
+624,商米V1sV1s是否支持WiFi热点分享,question
+625,商米V1s如何截屏,question
+626,商米V1s如何设置快速打开应用的快捷键？（快速扫码）,question
+627,商米V1s屏幕顶部出现的禁止图标是什么？,question
+628,商米V1s屏幕顶部出现的星号图标是什么？,question
+629,商米V1s在应用市场中找不到要下载的APP，如何安装第三方APP？,question
+630,"商米V1s安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理？",question
+631,"商米V1s从应用市场下载应用提示""应用下载失败，请检查网络后重新下载”，如何处理？",question
+632,商米V1s如何停用不必要的应用？,question
+633,商米V1s为什么有部分应用无法卸载？,question
+634,商米V1s商米机器内置什么输入法，安装第三方输入法怎么切换使用？,question
+635,商米V1s如何禁止系统及应用在3G状态下自动更新,question
+636,商米V1s如何恢复出厂设置,question
+637,商米V1s时间不对，时间设置怎么是灰色的？,question
+638,商米V1s商米可以提供系统刷机包吗？,question
+639,商米V1s商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
+640,商米V1s内置GPS芯片吗？是否支持GPS定位？,question
+641,商米V1s设置密码锁屏，但是忘记了密码，怎么处理,question
+642,商米V1s安全模式是什么？不小心进入了安全模式，怎么退出？屏幕上的应用图标是灰色的，无法打开，怎么解决？,question
+643,商米V1s如何进入安全模式？,question
+644,商米V1s如何退出安全模式？,question
+645,商米V1s可用存储空间少，如何清理缓存和删除不需要的文件？,question
+646,商米V1s是否支持OTG，是否支持外接USB设备？,question
+647,商米V1s是否支持会员卡、积分卡？支持哪类非接卡？,question
+648,商米V1s使用USB线连接PC后，怎么传输文件？？,question
+649,商米V1s使用哪种规格的热敏纸？,question
+650,商米V1s其他设备是否可以把V1s当蓝牙打印机来使用？,question
+651,商米V1s如何在APP中通过蓝牙连接自带的打印机？,question
+652,商米V1s如何调整打印清晰度？,question
+653,商米V1s如何调整打印字体大小？,question
+654,商米V1s手持机是否支持打印热敏标签、不干胶标签？,question
+655,商米V1s为什么V1s打印速度比V1慢,question
+656,商米V1s如何使用硬件管家检测硬件功能是否正常？,question
+657,商米V1s开不了机（如设备电量过低），如何处理？,question
+658,商米V1s无法充电，如何处理？,question
+659,商米V1s充电电量到90%以上到充满需要花很长时间，充电速度慢；为什么95%以上电量不能充电？,question
+660,商米V1s充电就发烫，然后自动关机，怎么处理？,question
+661,商米V1s耗电快怎么处理？,question
+662,商米V1s使用卡顿怎么处理？,question
+663,商米V1s死机怎么办？,question
+664,商米V1s我使用的APP没有声音提示,question
+665,商米V1s插入流量卡、物联卡无法联网怎么处理？,question
+666,商米V1s搜不到指定的WiFi，但是用手机可以搜索到 ,question
+667,商米V1s连接WiFi提示网络连接失败；WiFi连接后不能上网,question
+668,商米V1s系统提示“无法连接到相机，请确保已关闭会使用相机或闪光灯的应用程序。,question
+669,商米V1s开机一直出现“com.android.phone”停止运行，按确认会重启，进不了系统,question
+670,商米V1s开机黑屏，出现提示：未知错误，请重启,question
+671,商米V1s开机黑屏，出现英文提示：Select Boot Mode,question
+672,商米V1s屏幕一直亮着，自动亮屏，耗电快,question
+673,商米V1s为什么喇叭声音没有V1响？,question
+674,商米V1s我使用的APP不能打印，怎么办？,question
+675,商米V1s打印内容空白，怎么处理？,question
+676,商米V1s打印不走纸或打印很慢，怎么处理？ ,question
+677,商米V1s打印变淡、打印模糊、打印字体不清晰 ,question
+678,商米V1s打印机有打印纸的情况下出现“打印纸未准备好”的警报是什么原因导致的？,question
+679,商米V1s“打印头过热，请等待冷却” 怎么解除设备的安全报警？,question
+680,商米V1s外卖平台自动接单说明,question
+681,商米V1s饿了么商家版APP如何设置自动接单？,question
+682,商米V1s美团外卖商家版APP如何设置自动接单？,question
+683,商米V1s饿了么商家版APP如何设置接单和自动打印？,question
+684,商米V1s美团商家版APP如何设置接单和自动打印？,question
+685,商米V1s美团外卖商家版来订单是只有叮的声音，没有播报语音；接单后不会自动打印；,question
