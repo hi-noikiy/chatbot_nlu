@@ -59,8 +59,8 @@ for k, g in groups:
 
 nlu_data['rasa_nlu_data']['entity_synonyms'] = synonyms
 
-nlu_data_file = str((parent_folder / 'data/nlu_data.json').absolute())
-json.dump(nlu_data, open(parent_folder / 'data/nlu_data.json', 'w'))
+nlu_data_file = str((parent_folder / 'data/nlu/nlu_data.json').absolute())
+json.dump(nlu_data, open(nlu_data_file, 'w'))
 print("{0} training sample has been written to {1}".format(len(common_data), nlu_data_file))
 
 
