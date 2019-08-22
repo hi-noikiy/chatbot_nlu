@@ -9,3 +9,15 @@ pipeline:
 - name: "RegexFeaturizer"
 - name: "MitieFeaturizer"
 - name: "SklearnIntentClassifier"
+
+policies:
+- epochs: 50
+  max_history: 6
+  name: KerasPolicy
+- max_history: 6
+  name: AugmentedMemoizationPolicy
+- core_threshold: 0.3
+  name: TwoStageFallbackPolicy
+  nlu_threshold: 0.8
+- name: FormPolicy
+- name: MappingPolicy

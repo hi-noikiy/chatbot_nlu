@@ -17,6 +17,7 @@ intents:
   - greeting
   - chatty
   - question
+  - byebye
 
 
 slots:
@@ -48,3 +49,6 @@ templates:
 actions:
   - utter_greet
   - utter_goodbye
+
+
+policies:

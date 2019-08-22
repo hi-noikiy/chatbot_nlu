@@ -10,3 +10,15 @@ pipeline:
   timeout: 10000
 - name: "rasa_nlu_gao.classifiers.embedding_bert_intent_classifier.EmbeddingBertIntentClassifier"
 - name: "CRFEntityExtractor"
+
+policies:
+- epochs: 50
+  max_history: 6
+  name: KerasPolicy
+- max_history: 6
+  name: AugmentedMemoizationPolicy
+- core_threshold: 0.3
+  name: TwoStageFallbackPolicy
+  nlu_threshold: 0.8
+- name: FormPolicy
+- name: MappingPolicy
