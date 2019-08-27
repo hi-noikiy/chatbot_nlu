@@ -4,7 +4,6 @@
 商品条码,identity,条形码
 扫描,action,扫描
 商米,company,商米
-T1 mini,product,T1mini
 T1mini,product,T1mini
 使用,action,使用
 下载,action,下载
@@ -143,10 +142,8 @@ SD卡,accessory,SD卡
 显示,action,显示
 2个相同的图片,malfunction,显示相同图片
 T2,product,T2
-V2 Pro,product,V2pro
 V2Pro,product,V2pro
 V2pro,product,V2pro
-V2 pro,product,V2pro
 P1,product,P1
 M1,product,M1
 K1,product,K1

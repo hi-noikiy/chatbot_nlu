@@ -23,6 +23,7 @@ def extract_entities(question, intent, entities_df):
     already_in = []
     for i, e in entities_df.iterrows():
         word = e['word']
+        sym = e['sym']
         s = question.find(word)
         if s >= 0:
             for w in already_in:
@@ -30,7 +31,7 @@ def extract_entities(question, intent, entities_df):
                     break
             else:
                 already_in.append(word)
-                find_entities.append({'value': word, 'entity': e['entity'], 'start': s, 'end': s + len(word)})
+                find_entities.append({'value': sym, 'entity': e['entity'], 'start': s, 'end': s + len(word)})
 
     data['text'] = question
     data['intent'] = intent
@@ -52,10 +53,11 @@ nlu_data['rasa_nlu_data']['lookup_tables'] = []
 groups = entities_df.groupby('sym')
 
 synonyms = []
-for k, g in groups:
-    if len(g) > 1:
-        s = {k: g['word'].tolist()}
-        synonyms.append(s)
+# for k, g in groups:
+#     words = set(g['word'].tolist() + [k])
+#     if len(words) > 1:
+#         s = {k: list(words)}
+#         synonyms.append(s)
 
 nlu_data['rasa_nlu_data']['entity_synonyms'] = synonyms
 

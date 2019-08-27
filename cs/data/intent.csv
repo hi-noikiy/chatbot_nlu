@@ -113,13 +113,20 @@
 112,小闪支持扫描商品条码吗？,question
 113,小闪支持扫条码吗？,question
 114,小闪支持扫商品条码吗？,question
-115,商米T1 mini如何使用应用,question
-116,商米T1 mini如何下载应用,question
-117,商米T1 mini系统预置软件列表,question
-118,商米T1 mini死机怎么办,question
-119,商米T1 mini打印机不工作,question
-120,商米T1 mini打印内容空白,question
-121,商米T1 mini打印内容模糊,question
+115,商米T1mini如何使用应用,question
+116,商米T1mini如何下载应用,question
+117,商米T1mini系统预置软件列表,question
+118,商米T1mini死机怎么办,question
+119,商米T1mini打印机不工作,question
+120,商米T1mini打印内容空白,question
+121,商米T1mini打印内容模糊,question
+121,商米T1mini多少钱,question
+121,T1mini多少钱,question
+121,T1mini怎么卖,question
+121,T1mini哪里可以买到,question
+121,哪里可以买到T1mini,question
+121,哪里可以购买T1mini,question
+121,T1mini好不好用,question
 122,商米T1外观介绍,question
 123,商米T1安装说明,question
 124,商米T1开机设置说明,question
@@ -303,70 +310,70 @@
 302,商米T2打印机不工作，报“打印机未准备好”，如何处理？,question
 303,商米T2打印机不工作，报“打印机切刀已经修复”，如何处理？,question
 304,商米T2打印机不工作，报“打印纸未准备好”，如何处理？,question
-305,商米V2 Pro支持什么种类的SIM卡,question
-306,商米V2 Pro充电器,question
-307,商米V2 Pro的工作温度是多少？,question
-308,商米V2 Pro插入流量卡、物联卡无法联网怎么处理？,question
-309,商米V2 Pro如何截屏？,question
-310,商米V2 Pro4G版如何使用eSIM卡连接移动网络？,question
-311,商米V2 Pro是否支持WiFi热点分享？,question
-312,商米V2 Pro如何设置快速打开应用的快捷键？,question
-313,商米V2 Pro如何查看流量使用情况？,question
-314,商米V2 Pro测试扫码头是否能够正常工作（V2 PRO 4G高配版）,question
-315,商米V2 Pro如何修改一维扫码头的扫描识别设置？,question
-316,商米V2 Pro如何调整文字显示大小？,question
-317,商米V2 Pro为什么文字变成加粗黑体显示？,question
-318,商米V2 Pro如何调整屏幕显示大小？,question
-319,商米V2 Pro如何设置手持收银设备的音量？,question
-320,商米V2 Pro在应用市场中找不到要下载的APP，如何安装第三方APP？,question
-321,"商米V2 Pro安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理？",question
-322,商米V2 Pro手持收银设备内置什么输入法，安装第三方输入法怎么切换使用？,question
-323,"商米V2 Pro从应用市场下载应用提示""应用下载失败，请检查网络后重新下载”，如何处理？",question
-324,商米V2 Pro如何停用不必要的应用？,question
-325,商米V2 Pro为什么有部分应用无法卸载？,question
-326,商米V2 Pro系统更新会自动下载吗？会不会影响到日常工作？,question
-327,商米V2 Pro如何禁止系统及应用在4G状态下自动更新,question
-328,商米V2 Pro如何恢复出厂设置,question
-329,商米V2 Pro时间不对，时间设置怎么是灰色的？,question
-330,商米V2 Pro是否提供系统刷机包,question
-331,商米V2 Pro商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
-332,商米V2 Pro内置GPS芯片吗？是否支持GPS定位？,question
-333,商米V2 Pro设置密码锁屏，但是忘记了密码，怎么处理,question
-334,商米V2 Pro安全模式是什么？不小心进入了安全模式，怎么退出？屏幕上的应用图标是灰色的，无法打开，怎么解决？,question
-335,商米V2 Pro可用存储空间少，如何清理缓存和删除不需要的文件？,question
-336,商米V2 Pro是否支持OTG，是否支持外接USB设备？,question
-337,商米V2 Pro是否支持会员卡、积分卡？支持哪类非接卡？,question
-338,商米V2 Pro使用USB线连接PC后，怎么传输文件？,question
-339,商米V2 Pro使用哪种规格的热敏纸？,question
-340,商米V2 Pro其他设备是否可以把V2 PRO当蓝牙打印机来使用？,question
-341,商米V2 Pro手持机是否支持打印热敏标签/不干胶标签？,question
-342,商米V2 Pro如何使用硬件管家检测硬件功能是否正常？,question
-343,商米V2 Pro开不了机（如设备电量过低），如何处理？,question
-344,商米V2 Pro无法充电，如何处理？,question
-345,商米V2 Pro充电电量到90%以上到充满需要花很长时间，充电速度慢；为什么95%以上电量不能充电？,question
-346,商米V2 Pro耗电快怎么处理？,question
-347,商米V2 Pro使用卡顿怎么处理？,question
-348,商米V2 Pro死机怎么办？,question
-349,商米V2 Pro扫码模糊、反应速度慢，怎么解决？,question
-350,商米V2 Pro使用的APP没有声音提示,question
-351,商米V2 Pro连接WiFi提示网络连接失败；WiFi连接后不能上网,question
-352,商米V2 Pro我使用的APP不能联网，显示网络连接失败,question
-353,商米V2 Pro系统提示“无法连接到相机，请确保已关闭会使用相机或闪光灯的应用程序。”,question
-354,商米V2 Pro开机一直出现“com.android.phone”停止运行，按确认会重启，进不了系统,question
-355,商米V2 Pro开机黑屏，出现提示：未知错误，请重启,question
-356,商米V2 Pro屏幕一直亮着，自动亮屏，耗电快,question
-357,商米V2 Pro使用饿了么app，打印首单提示“打印机连接异常”,question
-358,商米V2 Pro我使用的APP不能打印，怎么办？,question
-359,商米V2 Pro打印内容空白，怎么处理？,question
-360,商米V2 Pro打印不走纸，怎么处理？,question
-361,商米V2 Pro打印变淡、打印模糊、打印字体不清晰 ,question
-362,商米V2 Pro打印机有打印纸的情况下出现“打印纸未准备好”的警报是什么原因导致的？,question
-363,商米V2 Pro“打印头过热，请等待冷却” 怎么解除设备的安全报警？,question
-364,商米V2 Pro打印模糊,question
-365,商米V2 Pro如何在APP中通过蓝牙连接自带的打印机？,question
-366,商米V2 Pro如何调整打印清晰度？,question
-367,商米V2 Pro如何调整打印字体大小？,question
-368,商米V2 Pro如何调整打印字体的样式？,question
+305,商米V2Pro支持什么种类的SIM卡,question
+306,商米V2Pro充电器,question
+307,商米V2Pro的工作温度是多少？,question
+308,商米V2Pro插入流量卡、物联卡无法联网怎么处理？,question
+309,商米V2Pro如何截屏？,question
+310,商米V2Pro4G版如何使用eSIM卡连接移动网络？,question
+311,商米V2Pro是否支持WiFi热点分享？,question
+312,商米V2Pro如何设置快速打开应用的快捷键？,question
+313,商米V2Pro如何查看流量使用情况？,question
+314,商米V2Pro测试扫码头是否能够正常工作（V2Pro 4G高配版）,question
+315,商米V2Pro如何修改一维扫码头的扫描识别设置？,question
+316,商米V2Pro如何调整文字显示大小？,question
+317,商米V2Pro为什么文字变成加粗黑体显示？,question
+318,商米V2Pro如何调整屏幕显示大小？,question
+319,商米V2Pro如何设置手持收银设备的音量？,question
+320,商米V2Pro在应用市场中找不到要下载的APP，如何安装第三方APP？,question
+321,"商米V2Pro安装从网页下载或者蓝牙接收到本地的应用APK，显示""应用未安装"" 或“禁止未经授权的APP安装”，如何处理？",question
+322,商米V2Pro手持收银设备内置什么输入法，安装第三方输入法怎么切换使用？,question
+323,"商米V2Pro从应用市场下载应用提示""应用下载失败，请检查网络后重新下载”，如何处理？",question
+324,商米V2Pro如何停用不必要的应用？,question
+325,商米V2Pro为什么有部分应用无法卸载？,question
+326,商米V2Pro系统更新会自动下载吗？会不会影响到日常工作？,question
+327,商米V2Pro如何禁止系统及应用在4G状态下自动更新,question
+328,商米V2Pro如何恢复出厂设置,question
+329,商米V2Pro时间不对，时间设置怎么是灰色的？,question
+330,商米V2Pro是否提供系统刷机包,question
+331,商米V2Pro商米设备既然是安卓操作系统，那么是否可以获取ROOT权限,question
+332,商米V2Pro内置GPS芯片吗？是否支持GPS定位？,question
+333,商米V2Pro设置密码锁屏，但是忘记了密码，怎么处理,question
+334,商米V2Pro安全模式是什么？不小心进入了安全模式，怎么退出？屏幕上的应用图标是灰色的，无法打开，怎么解决？,question
+335,商米V2Pro可用存储空间少，如何清理缓存和删除不需要的文件？,question
+336,商米V2Pro是否支持OTG，是否支持外接USB设备？,question
+337,商米V2Pro是否支持会员卡、积分卡？支持哪类非接卡？,question
+338,商米V2Pro使用USB线连接PC后，怎么传输文件？,question
+339,商米V2Pro使用哪种规格的热敏纸？,question
+340,商米V2Pro其他设备是否可以把V2Pro当蓝牙打印机来使用？,question
+341,商米V2Pro手持机是否支持打印热敏标签/不干胶标签？,question
+342,商米V2Pro如何使用硬件管家检测硬件功能是否正常？,question
+343,商米V2Pro开不了机（如设备电量过低），如何处理？,question
+344,商米V2Pro无法充电，如何处理？,question
+345,商米V2Pro充电电量到90%以上到充满需要花很长时间，充电速度慢；为什么95%以上电量不能充电？,question
+346,商米V2Pro耗电快怎么处理？,question
+347,商米V2Pro使用卡顿怎么处理？,question
+348,商米V2Pro死机怎么办？,question
+349,商米V2Pro扫码模糊、反应速度慢，怎么解决？,question
+350,商米V2Pro使用的APP没有声音提示,question
+351,商米V2Pro连接WiFi提示网络连接失败；WiFi连接后不能上网,question
+352,商米V2Pro我使用的APP不能联网，显示网络连接失败,question
+353,商米V2Pro系统提示“无法连接到相机，请确保已关闭会使用相机或闪光灯的应用程序。”,question
+354,商米V2Pro开机一直出现“com.android.phone”停止运行，按确认会重启，进不了系统,question
+355,商米V2Pro开机黑屏，出现提示：未知错误，请重启,question
+356,商米V2Pro屏幕一直亮着，自动亮屏，耗电快,question
+357,商米V2Pro使用饿了么app，打印首单提示“打印机连接异常”,question
+358,商米V2Pro我使用的APP不能打印，怎么办？,question
+359,商米V2Pro打印内容空白，怎么处理？,question
+360,商米V2Pro打印不走纸，怎么处理？,question
+361,商米V2Pro打印变淡、打印模糊、打印字体不清晰 ,question
+362,商米V2Pro打印机有打印纸的情况下出现“打印纸未准备好”的警报是什么原因导致的？,question
+363,商米V2Pro“打印头过热，请等待冷却” 怎么解除设备的安全报警？,question
+364,商米V2Pro打印模糊,question
+365,商米V2Pro如何在APP中通过蓝牙连接自带的打印机？,question
+366,商米V2Pro如何调整打印清晰度？,question
+367,商米V2Pro如何调整打印字体大小？,question
+368,商米V2Pro如何调整打印字体的样式？,question
 369,商米P1外观介绍,question
 370,商米P1充电及电池说明,question
 371,商米P1电池说明/注意事项 ,question
