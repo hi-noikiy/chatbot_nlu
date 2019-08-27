@@ -3,7 +3,6 @@ entities:
   - action
   - company
   - component
-  - compont
   - error_message
   - identity
   - introduction
@@ -40,6 +39,18 @@ slots:
       - D2
       - D1S
       - V1s
+  component:
+    type: unfeaturized
+  malfunction:
+    type: unfeaturized
+  error_message:
+    type: unfeaturized
+  protocol:
+    type: unfeaturized
+  accessory:
+    type: unfeaturized
+  action:
+    type: unfeaturized
   
 
 templates:
@@ -60,9 +71,7 @@ templates:
   utter_ask_product_info:
     - text: "您想问的是商米哪款产品？"
     - text: "不知道您关注的是哪一款商米的产品？"
-    - text: "您的哪款产品有问题？"
-  utter_confirm_product:
-    - text: "您想要的是{product}吧"
+    - text: "您想问哪款产品的问题？"
 
 
 actions:
@@ -71,4 +80,4 @@ actions:
   - utter_default
   - utter_chatty
   - utter_ask_product_info
-  - utter_confirm_product
+  - query_action

@@ -38,7 +38,7 @@ T1,product,T1
 root权限,component,root权限
 锁屏密码,component,锁屏密码
 设置,action,设置
-PIN码,compont,锁屏密码
+PIN码,component,锁屏密码
 忘记,action,忘记
 安全模式,component,安全模式
 进入,action,进入
@@ -51,6 +51,7 @@ PIN码,compont,锁屏密码
 缓存,component,缓存
 删除,action,清理
 文件,component,文件
+传输文件,action,传输文件
 显示字体的大小,component,字体大小
 调整,action,调整
 加粗黑体,component,加粗黑体
@@ -84,7 +85,7 @@ MSR,protocol,MSR
 HDMI,protocol,HDMI
 显示屏,accessory,屏幕
 摄像头,accessory,摄像头
-USB密码键盘,accessory,键盘
+USB密码键盘,accessory,密码键盘
 U盘,accessory,U盘
 USB接口,protocol,USB接口
 无线上网卡,accessory,无线上网卡
@@ -156,3 +157,4 @@ USB线,protocol,USB接口
 积分卡,identity,积分卡
 清晰度,component,清晰度
 检查,action,检查
+不走纸,malfunction,不走纸
