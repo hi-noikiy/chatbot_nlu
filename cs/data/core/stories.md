@@ -21,13 +21,14 @@
 ## question with product T1 mini
 * greeting
     - utter_greet
-* question{"product": "T1 mini"}
+* question{"product": "T1mini"}
     - utter_greet
 
 ## question with product T1
 * greeting
     - utter_greet
 * question{"product": "T1"}
+    - slot{"product": "T1"}
     - utter_greet
 
 ## question with product T2
@@ -39,7 +40,7 @@
 ## question with product V2 pro
 * greeting
     - utter_greet
-* question{"product": "V2 pro"}
+* question{"product": "V2pro"}
     - utter_greet
 
 ## question with product P1

@@ -28,10 +28,10 @@ slots:
     type: categorical
     values:
       - 小闪
-      - T1 mini
+      - T1mini
       - T1
       - T2
-      - V2 pro
+      - V2pro
       - P1
       - M1
       - K1
