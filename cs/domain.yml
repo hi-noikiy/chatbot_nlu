@@ -14,10 +14,13 @@ entities:
 
 
 intents:
-  - greeting
-  - chatty
+  - greeting:
+      use_entities: []
+  - chatty:
+      use_entities: []
   - question
-  - byebye
+  - byebye:
+      use_entities: []
 
 
 slots:
@@ -35,7 +38,7 @@ slots:
       - D2
       - D1S
       - V1s
-
+  
 
 templates:
   utter_greet:
@@ -44,11 +47,16 @@ templates:
   utter_goodbye:
     - text: "再见"
     - text: "88"
+  utter_default:
+    - text: "我不明白您想说什么。。"
+  utter_chatty:
+    - text: "小橙不接受调戏！"
+    - text: "客官请放尊重些！"
+    - text: "我要报警了啊"
 
 
 actions:
   - utter_greet
   - utter_goodbye
-
-
-policies:
+  - utter_default
+  - utter_chatty
