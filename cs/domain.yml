@@ -21,7 +21,9 @@ intents:
   - question
   - byebye:
       use_entities: []
-
+  - clarify_product:
+      use_entities:
+        - product
 
 slots:
   product:
@@ -47,12 +49,20 @@ templates:
   utter_goodbye:
     - text: "再见"
     - text: "88"
+    - text: "欢迎您的下次光临~"
+    - text: "有问题还是可以问小橙哦，88~"
   utter_default:
     - text: "我不明白您想说什么。。"
   utter_chatty:
     - text: "小橙不接受调戏！"
     - text: "客官请放尊重些！"
-    - text: "我要报警了啊"
+    - text: "我要报警了啊！"
+  utter_ask_product_info:
+    - text: "您想问的是商米哪款产品？"
+    - text: "不知道您关注的是哪一款商米的产品？"
+    - text: "您的哪款产品有问题？"
+  utter_confirm_product:
+    - text: "您想要的是{product}吧"
 
 
 actions:
@@ -60,3 +70,5 @@ actions:
   - utter_goodbye
   - utter_default
   - utter_chatty
+  - utter_ask_product_info
+  - utter_confirm_product
