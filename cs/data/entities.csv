@@ -34,6 +34,7 @@ T1,product,T1
 出厂设置,status,出厂设置
 主屏,accessory,屏幕
 14寸副屏,accessory,副屏幕
+副屏,accessory,副屏幕
 系统刷机包,component,刷机包
 root权限,component,root权限
 锁屏密码,component,锁屏密码
@@ -158,3 +159,4 @@ USB线,protocol,USB接口
 清晰度,component,清晰度
 检查,action,检查
 不走纸,malfunction,不走纸
+桌面,component,桌面
