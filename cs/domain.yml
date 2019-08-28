@@ -54,6 +54,8 @@ slots:
     type: unfeaturized
   candidates:
     type: unfeaturized
+  target:
+    type: unfeaturized
 
 templates:
   utter_greet:
