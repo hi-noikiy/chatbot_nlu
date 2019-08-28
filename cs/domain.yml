@@ -38,16 +38,16 @@ slots:
     type: categorical
     values:
     - 小闪
-    - t1mini
-    - t1
-    - t2
-    - v2pro
-    - p1
-    - m1
-    - k1
-    - d2
-    - d1s
-    - v1s
+    - T1mini
+    - T1
+    - T2
+    - V2pro
+    - P1
+    - M1
+    - K1
+    - D2
+    - D1S
+    - V1s
   protocol:
     type: unfeaturized
 
