@@ -1,4 +1,5 @@
 import json
+from math import isnan
 from pathlib import Path
 import pandas as pd
 
@@ -41,6 +42,7 @@ def extract_entities(question, intent, answer, entities_df):
 
 
 common_data = []
+intent_df.fillna('', inplace=True)
 for i, row in intent_df.iterrows():
     question = row['questions']
     intent = row['intention']

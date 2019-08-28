@@ -68,6 +68,7 @@ class QueryAction(Action):
                                 'answer': matched_as})
         df.drop_duplicates(subset=['answer'], inplace=True)
 
+        print(df)
         if len(df) == 1:
             dispatcher.utter_message(df['answer'][0])
         elif len(df) > 1:
