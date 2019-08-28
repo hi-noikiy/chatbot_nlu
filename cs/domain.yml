@@ -88,3 +88,4 @@ actions:
   - utter_out_of_scope
   - query_action
   - slot_reset
+  - return_chosen

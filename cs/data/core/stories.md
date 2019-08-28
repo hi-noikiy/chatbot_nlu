@@ -30,6 +30,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with clarified product info T1
 * question
@@ -39,6 +40,17 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
+    
+## direct ask question with clarified product info T1
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "T1"}
+    - slot{"product": "T1"}
+    - query_action
+* intent_choose
+    - return_chosen
+    - slot_reset
     
 ## direct ask question with clarified product info T2
 * question
@@ -48,6 +60,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with clarified product info V2 Pro
 * question
@@ -57,6 +70,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with clarified product info P1
 * question
@@ -66,6 +80,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with clarified product info M1
 * question
@@ -75,6 +90,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with clarified product info K1
 * question
@@ -84,6 +100,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with clarified product info D2
 * question
@@ -93,6 +110,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with clarified product info D1S
 * question
@@ -102,6 +120,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with clarified product info V1s
 * question
@@ -111,6 +130,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask question with product 小闪
 * question{"product": "小闪"}
@@ -118,6 +138,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
     
 ## direct ask with product T1 mini
 * question{"product": "T1mini"}
@@ -125,6 +146,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product T1
 * question{"product": "T1"}
@@ -132,6 +154,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product T2
 * question{"product": "T2"}
@@ -139,6 +162,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product V2 pro
 * question{"product": "V2pro"}
@@ -146,6 +170,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product P1
 * question{"product": "P1"}
@@ -153,6 +178,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product M1
 * question{"product": "M1"}
@@ -160,6 +186,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product K1
 * question{"product": "K1"}
@@ -167,6 +194,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product D2
 * question{"product": "D2"}
@@ -174,6 +202,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product D1S
 * question{"product": "D1S"}
@@ -181,6 +210,7 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset
 
 ## direct ask question with product V1s
 * question{"product": "V1s"}
@@ -188,3 +218,4 @@
     - query_action
 * intent_deny
     - utter_out_of_scope
+    - slot_reset

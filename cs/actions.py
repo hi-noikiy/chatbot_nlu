@@ -65,7 +65,7 @@ class QueryAction(Action):
                 matched_as.append(q_info['answer'])
 
         df = pd.DataFrame(data={'question': matched_qs,
-                                'answer': matched_as})
+                                'answer': matched_as}).set_index('question')
         df.drop_duplicates(subset=['answer'], inplace=True)
 
         print(df)
@@ -73,7 +73,7 @@ class QueryAction(Action):
             dispatcher.utter_message(df['answer'][0])
             return []
         elif len(df) > 1:
-            buttons = [{'title': q, 'payload': "/intent_choose{\"target\": \"" + q + "\"}"} for q in df.question]
+            buttons = [{'title': q, 'payload': "/intent_choose{\"target\": \"" + q + "\"}"} for q in df.index]
             buttons.append({'title': "没有符合的问题", 'payload': '/intent_deny'} )
             dispatcher.utter_button_message("我觉得你可能想问：",
                                             buttons=buttons)
@@ -82,6 +82,18 @@ class QueryAction(Action):
             dispatcher.utter_message("好的，小橙这边帮你转人工客服了")
             return []
 
+
+class ReturnChosen(Action):
+
+    def name(self):
+        return "return_chosen"
+
+    def run(self, dispatcher, tracker, domain):
+        target = tracker.get_slot('target')
+        candidates = tracker.get_slot('candidates')
+        print(candidates)
+        dispatcher.utter_message(candidates.loc[target])
+        return []
 
 class SlotReset(Action):
 
