@@ -77,7 +77,7 @@ class QueryAction(Action):
             buttons.append({'title': "没有符合的问题", 'payload': '/intent_deny'} )
             dispatcher.utter_button_message("我觉得你可能想问：",
                                             buttons=buttons)
-            return [SlotSet("candidates", df)]
+            return [SlotSet("candidates", df.to_dict())]
         else:
             dispatcher.utter_message("小橙不太明白客户您想问什么，这边帮你转人工客服了")
             return []
