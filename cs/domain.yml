@@ -55,29 +55,32 @@ slots:
 
 templates:
   utter_greet:
-  - text: 你好，我是小橙，有什么可以帮到你吗？
-  - text: 您好，乐意效劳！
+    - text: 你好，我是小橙，有什么可以帮到你吗？
+    - text: 您好，乐意效劳！
   utter_goodbye:
-  - text: 再见
-  - text: '88'
-  - text: 欢迎您的下次光临~
-  - text: 有问题还是可以问小橙哦，88~
+    - text: 再见
+    - text: '88'
+    - text: 欢迎您的下次光临~
+    - text: 有问题还是可以问小橙哦，88~
   utter_default:
-  - text: 我不明白您想说什么。。
+    - text: 我不明白您想说什么。。
+  utter_out_of_scope:
+    - text: 小橙不太明白客户您想问什么，这边帮你转人工客服了
   utter_chatty:
-  - text: 小橙不接受调戏！
-  - text: 客官请放尊重些！
-  - text: 我要报警了啊！
+    - text: 小橙不接受调戏！
+    - text: 客官请放尊重些！
+    - text: 我要报警了啊！
   utter_ask_product_info:
-  - text: 您想问的是商米哪款产品？
-  - text: 不知道您关注的是哪一款商米的产品？
-  - text: 您想问哪款产品的问题？
+    - text: 您想问的是商米哪款产品？
+    - text: 不知道您关注的是哪一款商米的产品？
+    - text: 您想问哪款产品的问题？
 
 actions:
-- utter_greet
-- utter_goodbye
-- utter_default
-- utter_chatty
-- utter_ask_product_info
-- query_action
-- slot_reset
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_chatty
+  - utter_ask_product_info
+  - utter_out_of_scope
+  - query_action
+  - slot_reset

@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from rasa_sdk import Action
-from rasa_sdk.events import AllSlotsReset
+from rasa_sdk.events import AllSlotsReset, SlotSet
 import pandas as pd
 
 file_path = Path(__file__).absolute().parents[0] / "data/nlu/nlu_data.json"
@@ -71,14 +71,16 @@ class QueryAction(Action):
         print(df)
         if len(df) == 1:
             dispatcher.utter_message(df['answer'][0])
+            return []
         elif len(df) > 1:
             buttons = [{'title': q, 'payload': '/intent_choose'} for i, q in enumerate(df.question)]
             buttons.append({'title': "没有符合的问题", 'payload': '/intent_deny'} )
             dispatcher.utter_button_message("我觉得你可能想问：",
                                             buttons=buttons)
+            return [SlotSet("candidates", df)]
         else:
             dispatcher.utter_message("小橙不太明白客户您想问什么，这边帮你转人工客服了")
-        return []
+            return []
 
 
 class SlotReset(Action):
