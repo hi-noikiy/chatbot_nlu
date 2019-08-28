@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from rasa_sdk import Action
+from rasa_sdk.events import AllSlotsReset
 import pandas as pd
 
 file_path = Path(__file__).absolute().parents[0] / "data/nlu/nlu_data.json"
@@ -74,6 +75,15 @@ class QueryAction(Action):
         else:
             dispatcher.utter_message("小橙不太明白客户您想问什么，这边帮你转人工客服了")
         return []
+
+
+class SlotReset(Action):
+
+    def name(self):
+        return "slot_reset"
+
+    def run(self, dispatcher, tracker, domain):
+        return [AllSlotsReset()]
 
 
 if __name__ == '__main__':

@@ -8,6 +8,7 @@
 
 ## only byebye
 * byebye
+    - slot_reset
     - utter_goodbye
     
 ## direct ask question without product info
@@ -15,11 +16,15 @@
     - utter_ask_product_info
 * clarify_product
     - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
     
 ## direct ask question with product 小闪
 * question{"product": "小闪"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
     
 ## direct ask with product T1 mini
@@ -34,6 +39,7 @@
     - slot{"product": "T1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product T2
@@ -41,6 +47,7 @@
     - slot{"product": "T2"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product V2 pro
@@ -48,6 +55,7 @@
     - slot{"product": "V2pro"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product P1
@@ -55,6 +63,7 @@
     - slot{"product": "P1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product M1
@@ -62,6 +71,7 @@
     - slot{"product": "M1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product K1
@@ -69,6 +79,7 @@
     - slot{"product": "K1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product D2
@@ -76,6 +87,7 @@
     - slot{"product": "D2"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product D1S
@@ -83,6 +95,7 @@
     - slot{"product": "D1S"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## direct ask question with product V1s
@@ -90,6 +103,7 @@
     - slot{"product": "V1s"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question without product info and confirmed T1mini
@@ -100,6 +114,7 @@
 * clarify_product{"product": "T1mini"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product 小闪
@@ -109,6 +124,7 @@
     - slot{"product": "小闪"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product T1 mini
@@ -118,6 +134,7 @@
     - slot{"product": "T1mini"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product T1
@@ -127,6 +144,7 @@
     - slot{"product": "T1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product T2
@@ -136,6 +154,7 @@
     - slot{"product": "T2"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product V2 pro
@@ -145,6 +164,7 @@
     - slot{"product": "V2pro"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product P1
@@ -154,6 +174,7 @@
     - slot{"product": "P1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product M1
@@ -163,6 +184,7 @@
     - slot{"product": "M1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product K1
@@ -172,6 +194,7 @@
     - slot{"product": "K1"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product D2
@@ -181,6 +204,7 @@
     - slot{"product": "D2"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product D1S
@@ -190,6 +214,7 @@
     - slot{"product": "D1S"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
 
 ## question with product V1s
@@ -199,4 +224,5 @@
     - slot{"product": "V1s"}
     - query_action
 * byebye
+    - slot_reset
     - utter_goodbye
