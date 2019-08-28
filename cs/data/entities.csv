@@ -46,7 +46,9 @@ PIN码,component,锁屏密码
 退出,action,退出
 存储空间,component,存储空间
 规格标示,protocol,规格
-不一样,malfunction,无法工作
+标示的不一样,malfunction,显示不正常
+显示的不一样,malfunction,显示不正常
+显示不正常,malfunction,显示不正常
 扩展,action,扩展
 清理,action,清理
 缓存,component,缓存
@@ -118,7 +120,8 @@ WIFI,component,WIFI
 识别,action,识别
 数值不完整,malfunction,数值不完整
 二维码,identity,条形码
-不显示,malfunction,无法工作
+不显示,malfunction,无法显示
+无法显示,malfunction,无法显示
 屏幕键盘,component,屏幕键盘
 SD卡,accessory,SD卡
 无法识别,malfunction,无法识别
