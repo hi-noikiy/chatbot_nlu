@@ -3,7 +3,7 @@ pipeline:
 - name: "JiebaTokenizer"
   dictionary_path: "jieba_userdict"
 - name: "rasa_nlu_gao.featurizers.bert_vectors_featurizer.BertVectorsFeaturizer"
-  ip: '127.0.0.1'
+  ip: '172.16.0.170'
   port: 5555
   port_out: 5556
   show_server_config: True

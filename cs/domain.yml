@@ -1,83 +1,80 @@
-entities:
-  - accessory
-  - action
-  - company
-  - component
-  - error_message
-  - identity
-  - introduction
-  - malfunction
-  - product
-  - protocol
-  - status
-
-
 intents:
-  - greeting:
-      use_entities: []
-  - chatty:
-      use_entities: []
-  - question
-  - byebye:
-      use_entities: []
-  - clarify_product:
-      use_entities:
-        - product
+- greeting:
+    use_entities: []
+- chatty:
+    use_entities: []
+- question
+- byebye:
+    use_entities: []
+- clarify_product:
+    use_entities:
+    - product
+
+entities:
+- accessory
+- action
+- company
+- component
+- error_message
+- identity
+- introduction
+- malfunction
+- product
+- protocol
+- status
 
 slots:
-  product:
-    type: categorical
-    values:
-      - 小闪
-      - T1mini
-      - T1
-      - T2
-      - V2pro
-      - P1
-      - M1
-      - K1
-      - D2
-      - D1S
-      - V1s
-  component:
-    type: unfeaturized
-  malfunction:
-    type: unfeaturized
-  error_message:
-    type: unfeaturized
-  protocol:
-    type: unfeaturized
   accessory:
     type: unfeaturized
   action:
     type: unfeaturized
-  
+  component:
+    type: unfeaturized
+  error_message:
+    type: unfeaturized
+  malfunction:
+    type: unfeaturized
+  product:
+    type: categorical
+    values:
+    - 小闪
+    - t1mini
+    - t1
+    - t2
+    - v2pro
+    - p1
+    - m1
+    - k1
+    - d2
+    - d1s
+    - v1s
+  protocol:
+    type: unfeaturized
 
 templates:
   utter_greet:
-    - text: "你好，我是小橙，有什么可以帮到你吗？"
-    - text: "您好，乐意效劳！"
+  - text: 你好，我是小橙，有什么可以帮到你吗？
+  - text: 您好，乐意效劳！
   utter_goodbye:
-    - text: "再见"
-    - text: "88"
-    - text: "欢迎您的下次光临~"
-    - text: "有问题还是可以问小橙哦，88~"
+  - text: 再见
+  - text: '88'
+  - text: 欢迎您的下次光临~
+  - text: 有问题还是可以问小橙哦，88~
   utter_default:
-    - text: "我不明白您想说什么。。"
+  - text: 我不明白您想说什么。。
   utter_chatty:
-    - text: "小橙不接受调戏！"
-    - text: "客官请放尊重些！"
-    - text: "我要报警了啊！"
+  - text: 小橙不接受调戏！
+  - text: 客官请放尊重些！
+  - text: 我要报警了啊！
   utter_ask_product_info:
-    - text: "您想问的是商米哪款产品？"
-    - text: "不知道您关注的是哪一款商米的产品？"
-    - text: "您想问哪款产品的问题？"
-
+  - text: 您想问的是商米哪款产品？
+  - text: 不知道您关注的是哪一款商米的产品？
+  - text: 您想问哪款产品的问题？
 
 actions:
-  - utter_greet
-  - utter_goodbye
-  - utter_default
-  - utter_chatty
-  - utter_ask_product_info
-  - query_action
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_chatty
+- utter_ask_product_info
+- query_action
