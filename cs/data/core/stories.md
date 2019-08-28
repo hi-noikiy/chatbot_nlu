@@ -106,12 +106,122 @@
     - slot_reset
     - utter_goodbye
 
+## question without product info and confirmed 小闪
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "小闪"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
 ## question without product info and confirmed T1mini
 * greeting
     - utter_greet
 * question
     - utter_ask_product_info
 * clarify_product{"product": "T1mini"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed T1
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "T1"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed T2
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "T2"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed V2 pro
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "V2pro"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed P1
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "P1"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed M1
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "M1"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed K1
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "K1"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed D2
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "D2"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed D1S
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "D1S"}
+    - query_action
+* byebye
+    - slot_reset
+    - utter_goodbye
+    
+## question without product info and confirmed V1s
+* greeting
+    - utter_greet
+* question
+    - utter_ask_product_info
+* clarify_product{"product": "V1s"}
     - query_action
 * byebye
     - slot_reset
