@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from rasa_sdk import Action
+import pandas as pd
 
 file_path = Path(__file__).absolute().parents[0] / "data/nlu/nlu_data.json"
 
@@ -42,7 +43,7 @@ class QueryAction(Action):
         product = tracker.get_slot("product")
 
         fields = ['component', 'malfunction', 'error_message', 'protocol', 'action', 'accessory']
-        max_matched = 0
+        max_matched = 1
         matched_qs = []
         matched_as = []
         for q_info in data_info:
@@ -62,7 +63,16 @@ class QueryAction(Action):
                 matched_qs.append(q_info['text'])
                 matched_as.append(q_info['answer'])
 
-        dispatcher.utter_message(str(matched_as[0]))
+        df = pd.DataFrame(data={'question': matched_qs,
+                                'answer': matched_as})
+        df.drop_duplicates(subset=['answer'], inplace=True)
+
+        if len(df) == 1:
+            dispatcher.utter_message(df['answer'][0])
+        elif len(df) > 1:
+            dispatcher.utter_message(df['answer'][0])
+        else:
+            dispatcher.utter_message("小橙不太明白客户您想问什么，这边帮你转人工客服了")
         return []
 
 
