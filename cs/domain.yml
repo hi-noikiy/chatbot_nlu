@@ -9,6 +9,8 @@ intents:
 - clarify_product:
     use_entities:
     - product
+- intent_choose
+- intent_deny
 
 entities:
 - accessory
