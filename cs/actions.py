@@ -73,7 +73,7 @@ class QueryAction(Action):
             dispatcher.utter_message(df['answer'][0])
         elif len(df) > 1:
             dispatcher.utter_button_message("我觉得你可能想问：",
-                                            buttons=[{q: None} for q in df.question])
+                                            buttons=[{i+1: q} for i, q in enumerate(df.question)])
         else:
             dispatcher.utter_message("小橙不太明白客户您想问什么，这边帮你转人工客服了")
         return []
