@@ -52,6 +52,8 @@ slots:
     - V1s
   protocol:
     type: unfeaturized
+  candidates:
+    type: unfeaturized
 
 templates:
   utter_greet:
