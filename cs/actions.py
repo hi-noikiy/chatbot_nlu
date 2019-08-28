@@ -46,7 +46,7 @@ class QueryAction(Action):
         for q_info in data_info:
             if q_info['intent'] != 'question' or q_info['product'] != product:
                 continue
-            print(q_info)
+
             matched_count = 0
             for f in fields:
                 if tracker.get_slot(f) in q_info[f]:
