@@ -57,8 +57,8 @@ class QueryAction(Action):
                 max_matched = matched_count
             elif matched_count >= max_matched:
                 matched_qs.append(q_info['text'])
-
-        dispatcher.utter_message(str(matched_qs))
+        print(str(matched_qs[0]))
+        dispatcher.utter_message(str(matched_qs[0]))
         return []
 
 
