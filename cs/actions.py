@@ -79,7 +79,7 @@ class QueryAction(Action):
                                             buttons=buttons)
             return [SlotSet("candidates", df.to_dict())]
         else:
-            dispatcher.utter_message("好的，小橙这边帮你转人工客服了")
+            dispatcher.utter_message("这种情况没见过，小橙这边帮你转人工客服了")
             return []
 
 
@@ -92,7 +92,7 @@ class ReturnChosen(Action):
         target = tracker.get_slot('target')
         candidates = tracker.get_slot('candidates')
         print(candidates)
-        dispatcher.utter_message(candidates.loc[target])
+        dispatcher.utter_message(candidates['answer'][target])
         return []
 
 class SlotReset(Action):
