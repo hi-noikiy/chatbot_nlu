@@ -73,7 +73,7 @@ class QueryAction(Action):
             dispatcher.utter_message(df['answer'][0])
             return []
         elif len(df) > 1:
-            buttons = [{'title': q, 'payload': "/intent_choose{\"target\":\"{q}\"}"} for i, q in df.question]
+            buttons = [{'title': q, 'payload': "/intent_choose{\"target\": \"" + q + "\"}"} for q in df.question]
             buttons.append({'title': "没有符合的问题", 'payload': '/intent_deny'} )
             dispatcher.utter_button_message("我觉得你可能想问：",
                                             buttons=buttons)
