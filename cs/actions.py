@@ -79,7 +79,7 @@ class QueryAction(Action):
                                             buttons=buttons)
             return [SlotSet("candidates", df.to_dict())]
         else:
-            dispatcher.utter_message("小橙不太明白客户您想问什么，这边帮你转人工客服了")
+            dispatcher.utter_message("好的，小橙这边帮你转人工客服了")
             return []
 
 
