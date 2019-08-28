@@ -21,6 +21,7 @@ with open(file_path) as f_handle:
                   status=[])
         dd['intent'] = d['intent']
         dd['text'] = d['text']
+        dd['answer'] = d['answer']
         for e in d['entities']:
             k = e['entity']
             v = e['value']
@@ -43,6 +44,7 @@ class QueryAction(Action):
         fields = ['component', 'malfunction', 'error_message', 'protocol', 'action', 'accessory']
         max_matched = 0
         matched_qs = []
+        matched_as = []
         for q_info in data_info:
             if q_info['intent'] != 'question' or q_info['product'] != product:
                 continue
@@ -54,11 +56,13 @@ class QueryAction(Action):
 
             if matched_count > max_matched:
                 matched_qs = [q_info['text']]
+                matched_as = [q_info['answer']]
                 max_matched = matched_count
             elif matched_count >= max_matched:
                 matched_qs.append(q_info['text'])
-        print(str(matched_qs[0]))
-        dispatcher.utter_message(str(matched_qs[0]))
+                matched_as.append(q_info['answer'])
+
+        dispatcher.utter_message(str(matched_as[0]))
         return []
 
 

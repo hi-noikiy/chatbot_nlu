@@ -17,7 +17,7 @@ entities_df['len'] = entities_df['word'].apply(lambda x: len(x))
 entities_df = entities_df.sort_values('len', ascending=False)
 
 
-def extract_entities(question, intent, entities_df):
+def extract_entities(question, intent, answer, entities_df):
     data = {}
     find_entities = []
     already_in = []
@@ -35,6 +35,7 @@ def extract_entities(question, intent, entities_df):
 
     data['text'] = question
     data['intent'] = intent
+    data['answer'] = answer
     data['entities'] = find_entities
     return data
 
@@ -43,7 +44,8 @@ common_data = []
 for i, row in intent_df.iterrows():
     question = row['questions']
     intent = row['intention']
-    common_data.append(extract_entities(question, intent, entities_df))
+    answer = row['answer']
+    common_data.append(extract_entities(question, intent, answer, entities_df))
 
 nlu_data = dict(rasa_nlu_data={})
 nlu_data['rasa_nlu_data']['common_examples'] = common_data
