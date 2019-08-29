@@ -47,6 +47,7 @@ class QueryAction(Action):
         max_matched = 1
         matched_qs = []
         matched_as = []
+        matched_num = []
         for q_info in data_info:
             if q_info['intent'] != 'question' or q_info['product'] != product:
                 continue
@@ -59,18 +60,21 @@ class QueryAction(Action):
             if matched_count > max_matched:
                 matched_qs = [q_info['text']]
                 matched_as = [q_info['answer']]
+                matched_num = [matched_count]
                 max_matched = matched_count
-            elif matched_count >= max_matched:
+            elif matched_count == max_matched:
                 matched_qs.append(q_info['text'])
                 matched_as.append(q_info['answer'])
+                matched_num.append(matched_count)
 
         df = pd.DataFrame(data={'question': matched_qs,
-                                'answer': matched_as}).set_index('question')
+                                'answer': matched_as,
+                                'matched': matched_num}).set_index('question')
         df.drop_duplicates(subset=['answer'], inplace=True)
 
         print(df)
         if len(df) == 1:
-            dispatcher.utter_message(df['answer'][0])
+            dispatcher.utter_message("这里是小橙帮你找到的解决方案: \n\n" + str(df['answer'][0]))
             return []
         elif len(df) > 1:
             buttons = [{'title': q, 'payload': "/intent_choose{\"target\": \"" + q + "\"}"} for q in df.index]
@@ -94,6 +98,7 @@ class ReturnChosen(Action):
         print(candidates)
         dispatcher.utter_message(candidates['answer'][target])
         return []
+
 
 class SlotReset(Action):
 
