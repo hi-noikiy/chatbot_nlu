@@ -1,12 +1,11 @@
-# RASA NLU Engine for Customer Service Chatbot
+# RASA Engine for Customer Service Chatbot
 
 ## Training Model
 
 * Data preparation
 
 ```bash
-$ cd ./utilities
-$ python run_data.py
+$ python utilities/run_data.py
 ```
 
 * Shell/Command line
@@ -14,12 +13,12 @@ $ python run_data.py
 under the project root folder:
 
 ```bash
-$ rasa train nlu --nlu data/nlu_data.json
+$ rasa train
 ```
 if everything is ok, the model should be placed as:
 
 ```bash
-./models/nlu-yyyymmdd-xxxxxx.tar.gz
+./models/yyyymmdd-xxxxxx.tar.gz
 ```
 
 ## Run the NLU Robot
