@@ -164,3 +164,5 @@ USB线,protocol,USB接口
 不走纸,malfunction,不走纸
 桌面,component,桌面
 卡纸,malfunction,不走纸
+扫码器,component,扫码器
+不识别,malfunction,无法工作

@@ -74,7 +74,8 @@ class QueryAction(Action):
 
         print(df)
         if len(df) == 1:
-            dispatcher.utter_message("这里是小橙帮你找到的解决方案: \n\n" + str(df['answer'][0]))
+            dispatcher.utter_message("小橙觉得你想问: <" + str(df.index[0]) + ">")
+            dispatcher.utter_message("这里是小橙帮你找到的解决方案: \n" + str(df['answer'][0]))
             return []
         elif len(df) > 1:
             buttons = [{'title': q, 'payload': "/intent_choose{\"target\": \"" + q + "\"}"} for q in df.index]
