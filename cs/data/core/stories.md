@@ -13,6 +13,11 @@
     - slot_reset
     - utter_goodbye
     
+## only deny
+* intent_deny
+    - slot_reset
+    - utter_out_of_scope
+    
 ## direct ask question with clarified product info 小闪
 * question
     - utter_ask_product_info

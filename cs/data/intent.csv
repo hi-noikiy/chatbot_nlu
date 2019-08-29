@@ -1876,3 +1876,10 @@ OTA升级推送成功后，请在机器桌面找到 系统更新，检查更新�
 892,商米设备饿了么商家版APP如何设置接单和自动打印？,question,null
 893,商米设备美团商家版APP如何设置接单和自动打印？,question,null
 894,商米设备美团外卖商家版来订单是只有叮的声音，没有播报语音；接单后不会自动打印；,question,null
+895,这个答案不对,intent_deny,null
+896,这个不是我想要的,intent_deny,null
+897,不对，请帮我转人工,intent_deny,null
+898,请帮我转人工客服,intent_deny,null
+899,帮我转人工,intent_deny,null
+900,这个问题不符合我的情况,intent_deny,null
+901,这个答案不符合我的情况,intent_deny,null
