@@ -9,7 +9,7 @@ from sklearn.metrics import f1_score
 
 parent_folder = Path(__file__).parents[1]
 
-df = pd.read_csv(parent_folder / "data/intent.csv", index_col=0)
+df = pd.read_csv(parent_folder / "data/faq.csv")
 
 model = str(parent_folder / "models")
 model = get_validated_path(model, "model", DEFAULT_MODELS_PATH)
@@ -28,3 +28,4 @@ for _, row in df.iterrows():
 
 print(f1_score(expected_intents, pred_intents, average=None))
 print("\n{0:4d} runs elapsed: {1}".format(len(df), dt.datetime.now() - start))
+

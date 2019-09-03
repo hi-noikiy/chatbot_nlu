@@ -5,7 +5,9 @@ import pandas as pd
 
 parent_folder = Path(__file__).absolute().parents[1]
 
-intent_df = pd.read_csv(parent_folder / 'data/intent.csv')
+intent_dfs = [pd.read_csv(parent_folder / 'data/faq.csv'),
+              pd.read_csv(parent_folder / 'data/products.csv'),
+              pd.read_csv(parent_folder / 'data/others.csv')]
 entities_df = pd.read_csv(parent_folder / 'data/entities.csv')
 
 dict_file = str((parent_folder / 'jieba_userdict/jieba_userdict.txt').absolute())
@@ -42,12 +44,13 @@ def extract_entities(question, intent, answer, entities_df):
 
 
 common_data = []
-intent_df.fillna('', inplace=True)
-for i, row in intent_df.iterrows():
-    question = row['questions']
-    intent = row['intention']
-    answer = row['answer']
-    common_data.append(extract_entities(question, intent, answer, entities_df))
+for intent_df in intent_dfs:
+    intent_df.fillna('', inplace=True)
+    for i, row in intent_df.iterrows():
+        question = row['questions']
+        intent = row['intention']
+        answer = row['answer'] if 'answer' in row else ''
+        common_data.append(extract_entities(question, intent, answer, entities_df))
 
 nlu_data = dict(rasa_nlu_data={})
 nlu_data['rasa_nlu_data']['common_examples'] = common_data
@@ -57,11 +60,11 @@ nlu_data['rasa_nlu_data']['lookup_tables'] = []
 groups = entities_df.groupby('sym')
 
 synonyms = []
-# for k, g in groups:
-#     words = set(g['word'].tolist() + [k])
-#     if len(words) > 1:
-#         s = {k: list(words)}
-#         synonyms.append(s)
+for k, g in groups:
+    words = set(g['word'].tolist() + [k])
+    if len(words) > 1:
+        s = {k: list(words)}
+        synonyms.append(s)
 
 nlu_data['rasa_nlu_data']['entity_synonyms'] = synonyms
 
