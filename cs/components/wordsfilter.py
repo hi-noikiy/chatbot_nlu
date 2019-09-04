@@ -1,4 +1,9 @@
+import logging
+from typing import Any, Dict, Optional, Text
 from rasa.nlu.components import Component
+
+
+logger = logging.getLogger(__name__)
 
 
 class WordsFilter(Component):
@@ -17,3 +22,7 @@ class WordsFilter(Component):
         for w in self.words:
             text = text.replace(w, '')
         message.text = text
+
+    def persist(self, file_name: Text, model_dir: Text) -> Optional[Dict[Text, Any]]:
+        """Persist this model into the passed directory."""
+        pass
