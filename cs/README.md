@@ -91,3 +91,37 @@ There are some examples directly run in python scripts. They are under `tests` a
 $ python examples/infer.py
 ```
 This script will do inference on all the questions in the training data, output the running time and the result.
+
+* Using HTTP API
+
+User can start up a running server to serve for incoming request:
+```bash
+$ rasa run --enable-api
+```
+
+Then you can call the api using your favourite `curl` tool:
+
+```bash
+$ curl -H "Content-Type:application/json" -X POST --data "{\"text\": \"商米T1 mini真的是好用\"}" http://localhost:5005/model/parse
+{'intent': {'name': 'question', 'confidence': 0.9977090359},
+ 'entities': [{'start': 0,
+   'end': 2,
+   'value': '商米',
+   'entity': 'company',
+   'confidence': 0.9989810742,
+   'extractor': 'CRFEntityExtractor'},
+  {'start': 2,
+   'end': 8,
+   'value': 'T1mini',
+   'entity': 'product',
+   'confidence': 0.9969463434,
+   'extractor': 'CRFEntityExtractor'}],
+ 'intent_ranking': [{'name': 'question', 'confidence': 0.9977090359},
+  {'name': 'clarify_product', 'confidence': 0.0013667401},
+  {'name': 'greeting', 'confidence': 0.0005088281},
+  {'name': 'intent_deny', 'confidence': 0.000196924},
+  {'name': 'byebye', 'confidence': 0.0001156126},
+  {'name': 'chatty', 'confidence': 0.0001028118}],
+ 'text': '商米T1mini真的是好用'}
+
+```
