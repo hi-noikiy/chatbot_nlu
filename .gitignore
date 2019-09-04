@@ -7,3 +7,4 @@ external_resources/total_word_feature_extractor_zh.dat
 *.log
 *.db
 *.json
+__pycache__

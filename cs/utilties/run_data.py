@@ -47,7 +47,7 @@ common_data = []
 for intent_df in intent_dfs:
     intent_df.fillna('', inplace=True)
     for i, row in intent_df.iterrows():
-        question = row['questions']
+        question = row['questions'].replace(" ", "")
         intent = row['intention']
         answer = row['answer'] if 'answer' in row else ''
         common_data.append(extract_entities(question, intent, answer, entities_df))

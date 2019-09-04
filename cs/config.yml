@@ -1,5 +1,7 @@
 language: "zh"
 pipeline:
+- name: "components.wordsfilter.WordsFilter"
+  filtered: [" "]
 - name: "JiebaTokenizer"
   dictionary_path: "jieba_userdict"
 - name: "rasa_nlu_gao.featurizers.bert_vectors_featurizer.BertVectorsFeaturizer"
