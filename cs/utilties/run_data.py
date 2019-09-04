@@ -9,6 +9,7 @@ intent_dfs = [pd.read_csv(parent_folder / 'data/faq.csv'),
               pd.read_csv(parent_folder / 'data/products.csv'),
               pd.read_csv(parent_folder / 'data/others.csv')]
 entities_df = pd.read_csv(parent_folder / 'data/entities.csv')
+lookup_df = pd.read_csv(parent_folder / 'data/lookup.csv')
 
 dict_file = str((parent_folder / 'jieba_userdict/jieba_userdict.txt').absolute())
 new_words = sorted(entities_df.word.tolist(), key=lambda x: -len(x))
@@ -57,16 +58,22 @@ nlu_data['rasa_nlu_data']['common_examples'] = common_data
 nlu_data['rasa_nlu_data']['regex_features'] = []
 nlu_data['rasa_nlu_data']['lookup_tables'] = []
 
-groups = entities_df.groupby('sym')
-
 synonyms = []
+groups = entities_df.groupby('sym')
 for k, g in groups:
     words = set(g['word'].tolist() + [k])
     if len(words) > 1:
         s = {k: list(words)}
         synonyms.append(s)
-
 nlu_data['rasa_nlu_data']['entity_synonyms'] = synonyms
+
+lookup_tables = []
+groups = lookup_df.groupby('entity')
+for k, g in groups:
+    words = set(g['value'].tolist())
+    s = {k: list(words)}
+    lookup_tables.append(s)
+nlu_data['rasa_nlu_data']['lookup_tables'] = lookup_tables
 
 nlu_data_file = str((parent_folder / 'data/nlu/nlu_data.json').absolute())
 json.dump(nlu_data, open(nlu_data_file, 'w'))
