@@ -88,7 +88,7 @@ the returning message will look like these:
 
 There are some examples directly run in python scripts. They are under `tests` and can be run as, e.g.:
 ```bash
-$ python examples/infer.py
+$ python tests/infer.py
 ```
 This script will do inference on all the questions in the training data, output the running time and the result.
 
