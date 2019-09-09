@@ -1,0 +1,27 @@
+language: "zh"
+pipeline:
+- name: "components.wordsfilter.WordsFilter"
+  filtered: [" "]
+- name: "JiebaTokenizer"
+  dictionary_path: "jieba_userdict"
+- name: "rasa_nlu_gao.featurizers.bert_vectors_featurizer.BertVectorsFeaturizer"
+  ip: '172.16.0.172'
+  port: 5555
+  port_out: 5556
+  show_server_config: True
+  timeout: 100000
+- name: "CRFEntityExtractor"
+- name: "EntitySynonymMapper"
+- name: "rasa_nlu_gao.classifiers.embedding_bert_intent_classifier.EmbeddingBertIntentClassifier"
+
+policies:
+- epochs: 50
+  max_history: 6
+  name: KerasPolicy
+- max_history: 6
+  name: AugmentedMemoizationPolicy
+- name: "FallbackPolicy"
+  nlu_threshold: 0.4
+  core_threshold: 0.3
+- name: FormPolicy
+- name: MappingPolicy

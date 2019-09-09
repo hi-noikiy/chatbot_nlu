@@ -1,0 +1,52 @@
+intents:
+- question:
+    use_entities: []
+- byebye:
+    use_entities: []
+- greeting:
+    use_entities: []
+entities:
+- account
+- action
+- company
+- cost
+- facility
+- information
+- method
+- object
+- property
+- receipt
+- subject
+- time
+slots:
+  account:
+    type: unfeaturized
+  action:
+    type: unfeaturized
+  company:
+    type: unfeaturized
+  cost:
+    type: unfeaturized
+  facility:
+    type: unfeaturized
+  information:
+    type: unfeaturized
+  method:
+    type: unfeaturized
+  object:
+    type: unfeaturized
+  property:
+    type: unfeaturized
+  receipt:
+    type: unfeaturized
+  subject:
+    type: unfeaturized
+  time:
+    type: unfeaturized
+templates:
+  utter_default:
+  - text: 我不明白您想说什么。。
+actions:
+- utter_default
+- query_action
+- slot_reset

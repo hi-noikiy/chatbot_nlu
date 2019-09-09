@@ -1,0 +1,5 @@
+numpy
+pandas
+rasa
+jieba
+rasa_nlu_gao
